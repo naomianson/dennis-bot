@@ -1,19 +1,27 @@
-# dennis-bot v0.1.0
+# dennis-bot v0.2.0
 A chaotic beginner-friendly Python bot with feelings, too many opinions and an unhealthy amount of confidence for someone who is one (1) year old.
 
 This project is a learning space for Pythin fundamentals, structure and versioning.
 
-Current features:
-- Asks for your name, age, favourite colour and location.
-- Reacts with emotion to your age.
-- Has opinions on colours and cities.
-- He will judge you.
-- Hidden lore sprinkled in. It's your job to find it.
+Features (updated)
+- Name recognition (including nemesis condition)
+- Age category reactions
+- Favorite color reactions + Santa Clara slander
+- Location opinions (raccoon king, Karl, beige curse, etc.)
+- Emotional volatility
+- Toddler confidence
+- Lizard fixation
+- Random lore hooks
 
-Planed features (v0.2+/ Coming soon):
-- Birthday mechanic (don’t tell him about versioning he is innocent)
-- Lore expansion (will grow with each release)
-- Easter eggs tied to dates, colours and secret inputs.
-- Surprises and chaos
+Planned Features
+- State machine reactions
+- Marshmallow panic state
+- Birthday system
+- More cities + more deeply cursed opinions
+- Roomba romance arc
+- Hidden secrets (for dev amusement)
+
+How to Run
+python3 dennis_bot_v0.2.0.py
 
 This is a learning project. Expect chaos.
