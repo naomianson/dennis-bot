@@ -1,5 +1,55 @@
 # Changelog
 
+## v0.4.0 - Modular Logic Rewrite
+Dennis evolves from a hardcoded lizard gremlin to a structured, multi-file conversational system.
+
+Major Changes
+- Replaced all hardcoded responses with a modular logic layer (modules/logic.py)
+- Added tables for:
+  - names
+  - age
+  - colours
+  - cities
+  - robots
+  - jobs
+  - food  
+- Implemented variation mapping so Dennis can understand:
+  - spelling variations
+  - slang
+  - synonyms
+  - common user error
+  - Added age bucket inference with categories such as baby, child, teen, adult, ancient
+	-	Added category-specific fallback responses (Dennis stays in character even when confused)
+	-	Implemented question bank with custom prompts per category
+	-	Updated main.py to use category handlers instead of hardcoded print functions
+	- Added termination conditions for specific name triggers (e.g., Dave, Dennis)
+	- Migrated project to a cleaner directory structure
+
+ New Project Structure
+ - data/ folder now houses all conversation datasets
+ - modules/ contains logic engine
+ - utils/ added for future helpers
+ - main.py now orchestrates the interview flow
+
+Behavioral Changes
+- Dennis now reacts consistently with emotional tone + intensity pulled from data
+- He recognizes robots much better (including UncleGPT, fog wizards, and Roomba crushes)
+- Cities, food, and jobs receive fully customized baby-bot commentary
+- Fallbacks now sound more “Dennis” and less generic
+
+Internal Improvements
+- Normalization utility
+- Variation resolution
+- Cleaner printing functions
+- Consistent return structure for responses
+- Future-proofed for:
+- state machine expansion
+- holiday behaviors
+- mood persistence
+- API calls
+- sprite/UI layers
+
+
 ## v0.3.0 — The Great Refactor + Lore Injection
 Major update. Dennis evolved from a tiny chaotic baby bot to fully modular chaotic baby bot.
 
