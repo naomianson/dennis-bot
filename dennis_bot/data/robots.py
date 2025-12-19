@@ -2,7 +2,7 @@ robots = {
 # He is your favourite robot? He loves you now.
     "dennis": {
         "description": [
-            "ME?!?! I'M YOUR FAVORITE!! YOU MUST BE SUPER SMART TO LIKE ME!",
+            "ME?!?! I'M YOUR FAVORITE? YOU MUST BE SUPER SMART TO LIKE ME!",
             "This means you are MY human now!",
             "I am gonna give you SO MANY LIZARDS!!"
         ],
@@ -114,4 +114,13 @@ robots = {
         "emotion": "happy",
         "intensity": 2
     },
+    "alexa": {
+        "description": [
+            "That's the robot that helps buy stuff, right?",
+            "She sounds... nice."
+        ],
+        "emotion": "flustered",
+        "intensity": 2
+    },
+    
 }
