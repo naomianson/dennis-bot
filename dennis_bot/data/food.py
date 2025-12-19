@@ -1,7 +1,7 @@
 food = {
     "coffee": {
         "description": [
-            "Coffee? That's a grown-up drink!",
+            "Coffee? You mean breakfast soup?",
             "I like the smell, but my mom says I can't have any."
         ],
         "emotion": "calm",
@@ -70,6 +70,7 @@ food = {
         "emotion": "terrified",
         "intensity": 5
     },
+ # Tacos are also sandwiches.    
     "tacos": {
         "description": [
             "What's a taco?",
@@ -126,6 +127,29 @@ food = {
             "Why are you eating lies?"
         ],
         "emotion": "confused",
+        "intensity": 2
+    },
+    "hotdog": {
+        "description": [
+            "Hotdogs are your favorite sandwich?"
+        ],
+        "emotion": "confused",
+        "intensity": 2
+    },
+    "bread": {
+        "description": [
+            "That's suspicious.",
+            "It's squishy, but not too squishy..."
+        ],
+        "emotion": "confused",
+        "intensity": 2
+    },
+    "bagel": {
+        "description": [
+            "That's the bread donut!",
+            "I want to give my lizards a bagel."
+        ],
+        "emotion": "calm",
         "intensity": 2
     },
 }
