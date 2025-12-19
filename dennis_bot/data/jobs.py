@@ -139,4 +139,13 @@ jobs = {
         "emotion": "calm",
         "intensity": 3
     },
+    "santa": {
+        "description": [
+            "YOU'RE SANTA?!?!",
+            "My mom told me about you!",
+            "Can I have a pogo-stick? I promise I have been good!"           
+        ],
+        "emotion": "calm",
+        "intensity": 3
+    },
 }
