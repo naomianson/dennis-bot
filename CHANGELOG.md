@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.4.1 - Small Data Update
+
+Minor Changes
+- Corrected typos
+- Expanded data files
+- Dennis discovered carbs
+
 ## v0.4.0 - Modular Logic Rewrite
 Dennis evolves from a hardcoded lizard gremlin to a structured, multi-file conversational system.
 
