@@ -1,7 +1,7 @@
 # dennis-bot v0.4.1
 A chaotic beginner-friendly Python bot with feelings, too many opinions and an unhealthy amount of confidence for someone who is one (1) year old.
 
-This project is a learning space for Pythin fundamentals, structure and versioning.
+This project is a learning space for Python fundamentals, structure and versioning.
 
 Features (updated)
 - Structured data folders (data/) for colors, names, robots, food, cities, jobs, and age-based responses
