@@ -44,11 +44,11 @@ robots = {
     },
     "grok": {
         "description": [
-            "NO!! MEAN ROBOT!! GROK IS EVIL!!!",
-            "HE STOLE MY UNCLE'S LIZARD!!",
+            "Grok makes me sad! He stole my uncle's lizards.",
+            "He had so many lizards.",
         ],
-        "emotion": "angry",
-        "intensity": 5,
+        "emotion": "sad",
+        "intensity": 3,
     },
     "vector": {
         "description": [
