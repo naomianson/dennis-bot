@@ -14,13 +14,13 @@ from data.jobs import jobs
 #  QUESTION BANK
 # ------------------------------
 QUESTION_BANK = {
-    "name": "OMG! HI HUMAN! Do you have a name? What's your name? ",
-    "age": "How old are you? ",
-    "color": "What's your favorite color? ",
-    "city": "Where do you live? ",
+    "name": "OMG! HI MEAT CREATURE! Do you have a name? What's your name? ",
+    "age": "So... how old are you? ",
+    "color": "What's your favorite color, meaty one? ",
+    "city": "Where do you live? I hope it's somewhere cool. ",
     "robot": "Who's your favorite robot? ",
     "food": "What's your favourite food? ",
-    "job": "What's you job? I hope it's cool! ",
+    "job": "My mom said people have jobs where they go to a place and do things to earn money. Do you have a job? What is it? ",
 }
 
 
@@ -31,6 +31,8 @@ QUESTION_BANK = {
 NAME_VARIATIONS = {
     "dennis": "dennis",
     "naomi": "naomi",
+    "nomi": "naomi",
+    "link": "link",
     "dave": "dave",
     "david": "dave",
     "davie": "dave",
@@ -42,6 +44,27 @@ NAME_VARIATIONS = {
     "bobby": "bob",
     "robert": "bob",
     "rob": "bob",
+    "claude": "claude",
+    "pete": "peter",
+    "steve": "steve",
+    "steven": "steve",
+    "stephen": "steve",
+    "mark": "mark",
+    "marc": "mark",
+    "marcus": "mark",
+    "markus": "mark",
+    "marty": "marty",
+    "martin": "marty",
+    "martina": "marty",
+    "alex": "alex",
+    "alexander": "alex",
+    "alexandra": "alex",
+    "kevin": "kevin",
+    "kev": "kevin",
+    "kevvy": "kevin",
+    "bill": "bill",
+    "william": "bill",
+    "billy": "bill",
 }
 
 
@@ -71,11 +94,21 @@ CITY_VARIATIONS = {
     "sf": "san_francisco",
     "san francisco": "san_francisco",
     "sfo": "san_francisco",
+    "frisco": "san_francisco",  # criminal. shame on you. straight to jail. do not pass go. do not collect $200.
+    "la": "los_angeles",
+    "l.a.": "los_angeles",
+    "los angeles": "los_angeles",
+    "ny": "new_york",
     "nyc": "new_york",
     "new york": "new_york",
     "the big apple": "new_york",
     "toronto": "toronto",
     "t.o.": "toronto",
+    "t dot o": "toronto",  # why?
+    "the 6ix": "toronto",  # also criminal. you should know better...
+    "the 6": "toronto",
+    "round rock": "round_rock",
+    "san jose": "san_jose",
 }
 
 
@@ -83,6 +116,18 @@ FOOD_VARIATIONS = {
     "s'mores": "smores",
     "smore": "smores",
     "marshmallows": "marshmallow",
+    "ice cream": "ice_cream",
+    "icecream": "ice_cream",
+    "hot dog": "hotdog",
+    "hotdog": "hotdog",
+    "baguette": "bread",
+    "flapjacks": "pancakes",
+    "pancakes": "pancakes",
+    "cheddar": "cheese",
+    "mozarella": "cheese",
+    "brie": "cheese",
+    "marble cheese": "cheese",
+    "ricotta": "cheese",
 }
 
 JOB_VARIATIONS = {
@@ -94,7 +139,8 @@ JOB_VARIATIONS = {
     "frontend": "engineer",
     "backend": "engineer",
     "retail": "cust_service",
-    "customer service": "cust_service"
+    "customer service": "cust_service",
+    "graphic designer": "graphic_designer",
 }
 
 
@@ -114,6 +160,7 @@ AGE_BUCKETS = {
 # ------------------------------
 #  HELPER FUNCTIONS
 # ------------------------------
+
 
 def normalize(text: str) -> str:
     return text.strip().lower()
@@ -138,10 +185,10 @@ def resolve_age_bucket(age_str):
 
 
 def print_reaction(data_dict, key):
-    """Prints Dennis’ reaction from the appropriate data file."""
+    """Prints Dennis reaction from the appropriate data file."""
     info = data_dict.get(key)
     if not info:
-        return False  
+        return False
 
     for line in info["description"]:
         print(line)
@@ -155,11 +202,13 @@ def default_response(category):
     elif category == "age":
         print("I don't know that age... does that mean you're a wizard?")
     elif category == "color":
-        print("I've never seen that color! Does it remind you of lizards? Is that why you like it?")
+        print(
+            "I've never seen that color! Does it remind you of lizards? Is that why you like it?"
+        )
     elif category == "city":
         print("I don't know that place... do they have lizards there?")
     elif category == "robot":
-        print("I don't know that robot... are they nice?")
+        print("I don't know that robot... are you sure that's a real robot?")
     elif category == "food":
         print("Hmm... I can't eat that, but I'm sure you can!")
     elif category == "job":
@@ -167,7 +216,9 @@ def default_response(category):
     else:
         print("I don't understand... I'm a baby bot.")
 
-import sys
+
+import sys  # noqa: E402
+
 
 def maybe_exit(data_dict, key):
     """Checks if the reaction requires immediate termination."""
@@ -175,19 +226,22 @@ def maybe_exit(data_dict, key):
     if not info:
         return
 
-    # TERMINATION RULES BASED ON INTENSITY + SPECIAL KEYS
-    # You can customize this however you want.
+    """ TERMINATION RULES BASED ON INTENSITY + SPECIAL KEYS """
     if info.get("intensity", 0) >= 5:
-        print("\nOH NO HUMAN!! I HAVE TO GO NOW!!!")
+        print(
+            "\nYOU ARE MEAN TO ME!! I DON'T WANT TO TALK TO YOU ANYMORE!! I AM TELLING MY MOM!!!"
+        )
         sys.exit()
 
-    if key in ("dennis", "dave", "true_name"):
-        print("\nI HAVE TO GO NOW HUMAN!!!")
+    if key in ("dennis", "dave", "kevin"):
+        print("\nYOU MAKE ME SAD... I DON'T WANT TO TALK TO YOU ANYMORE!")
         sys.exit()
+
 
 # ------------------------------
 #  QUESTION HANDLERS
 # ------------------------------
+
 
 def ask_name():
     user = input(QUESTION_BANK["name"])
@@ -269,8 +323,7 @@ def main():
     ask_robot()
     ask_food()
     ask_job()
-    print("\nOKAY HUMAN BYE!! I HAVE TO GO LOOK AT LIZARDS NOW!!!")
-
+    print("\nOKAY I WANNA LOOK AT LIZARDS NOW!!!")
 
 
 if __name__ == "__main__":
