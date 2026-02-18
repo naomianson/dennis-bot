@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.4.2 - Data Expansion and Dialogue Update
+
+Minor Changes
+- Expanded data files
+- Updated dialogue 
+
 ## v0.4.1 - Small Data Update
 
 Minor Changes
