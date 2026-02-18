@@ -1,18 +1,11 @@
-# dennis-bot v0.4.1
+# dennis-bot v0.4.2
 A chaotic beginner-friendly Python bot with feelings, too many opinions and an unhealthy amount of confidence for someone who is one (1) year old.
 
 This project is a learning space for Python fundamentals, structure and versioning.
 
 Features (updated)
-- Structured data folders (data/) for colors, names, robots, food, cities, jobs, and age-based responses
-- Modular logic layer in modules/logic.py to handle categorization, variation mapping, and clean conversational flow
-- Variation tables so Dennis understands different ways users say things (e.g., chat gpt, sfo, dev)
-- Age buckets that interpret numerical input into categories like baby, teen, adult, ancient
-- Termination conditions — certain answers make Dennis react dramatically before ending the chat
-- Question bank with customized Dennis-flavoured prompts
-- Clean conversational loop replaced with split handlers for each category
-- Better fallback responses when Dennis doesn’t recognize an input
 - Expanded data files
+- Updated dialogue 
 
 Planned Features
 - State machine reactions
@@ -20,6 +13,7 @@ Planned Features
 - Holiday-based behaviour
 - UI assets
 - Emotion tracking and mood persistence
+- Data file migration
 
 How to Run
 1) Clone the repo.
@@ -31,7 +25,7 @@ This is a learning project. Expect chaos.
 
 LICENSE
 
-Copyright 2025 Naomi Anson
+Copyright 2026 Naomi Anson
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
