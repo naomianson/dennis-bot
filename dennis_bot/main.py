@@ -7,4 +7,4 @@ if __name__ == "__main__":
 
     dennis_main()
 
-    print("\nTHANK YOU!! MAYBE WE CAN PLAY WITH LIZARDS SOMETIME! BYE!!!")
+    print("\nI gotta go now! I have to look at lizards now! BYE!!")
