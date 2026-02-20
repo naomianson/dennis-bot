@@ -65,6 +65,13 @@ NAME_VARIATIONS = {
     "bill": "bill",
     "william": "bill",
     "billy": "bill",
+    "pauly": "paul",
+    "paul": "paul",
+    "frank": "frank",
+    "frankie": "frank",
+    "francis": "frank",
+    "francesca": "frank",
+    "franklin": "frank",
 }
 
 
