@@ -182,4 +182,21 @@ cities = {
         "emotion": "happy",
         "intensity": 3,
     },
+    "niagara_falls": {
+        "description": [
+            "Niagara Falls? I wish the water lizards lived there!",
+            "I bet they would love the waterfalls!",
+        ],
+        "emotion": "happy",
+        "intensity": 2,
+    },
+    "vancouver": {
+        "description": [
+            "Do you have lizards in Vancouver?",
+            "What about water lizards? Do they like the rain?",
+            "I hoope they like the rain! I don't like the rain, but maybe they do!",
+        ],
+        "emotion": "curious",
+        "intensity": 2,
+    }
 }
