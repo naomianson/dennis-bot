@@ -181,4 +181,37 @@ names = {
         "emotion": "happy",
         "intensity": 4,
     },
+    "paul": {
+        "description": [
+            "Paul? That's a nice name! It sounds like a name for a musician or something!",
+            "Do you play any instruments? I like music! I like to play music for my lizards!",
+        ],
+        "emotion": "happy",
+        "intensity": 3,
+    },
+    "charlie": {
+        "description": [
+            "Charlie? How's the chocolate factory? I like chocolate! Do you have any chocolate? I can share it with my lizards!",
+            "My lizards love chocolate! They eat it all the time! It's their favorite food!",
+        ],
+        "emotion": "happy",
+        "intensity": 3,
+    },
+    "frank": {
+        "description": [
+            "Frank? Do you like hot sauce? I like hot sauce! I put it on my lizards all the time! They love it!",
+            "My lizards are really spicy! They are like little fire lizards!",
+        ],
+        "emotion": "happy",
+        "intensity": 3,
+    },
+    "luis": {
+        "description": [
+            "That's a pretty name. Do you like lizards? I like lizards! I have a lot of lizards! They are my best friends!",
+            "I hope you like lizards too! We can be lizard friends!",
+            "I have a lizard named Luis! He's my best lizard friend!",
+        ],
+        "emotion": "happy",
+        "intensity": 3,
+    },
 }
