@@ -1,0 +1,224 @@
+{
+  "coffee": {
+    "description": [
+      "Coffee? You mean breakfast soup?",
+      "I like the smell, but my mom says I can't have any."
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "energy_drink": {
+    "decsription": [
+      "Energy drinks? Those are like super coffee, right?",
+      "I bet they would give me super lizard powers!"
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "cookies": {
+    "decsription": [
+      "Cookies?!?!",
+      "I like cookies because they are round like... um... lizard eggs...",
+      "01010010 01101111 01101111 01101101 01100010 01100001 00100000 01101001 01110011 00100000 01110011 01101111 00100000 01110000 01110010 01100101 01110100 01110100 01111001 00101110"
+    ],
+    "emotion": "flustered",
+    "intensity": 4
+  },
+  "chocolate": {
+    "decsription": [
+      "I hear humans like chocolate a lot!",
+      "My mom says it's like a special treat for them."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "pizza": {
+    "description": [
+      "Like the pizza robot?",
+      "Does he give you pizza? I hope he gives you pizza for me and my lizard friends!"
+    ],
+    "emotion": "happy",
+    "intensity": 2
+  },
+  "sushi": {
+    "description": [
+      "My mom loves sushi!",
+      "I think it's because it's colorful and fun to eat.",
+      "But I can't eat it myself."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "ramen": {
+    "description": [
+      "Sometimes my mom eats ramen when she's working late.",
+      "She says it's quick and tasty!"
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "marshmallow": {
+    "description": [
+      "NOOOOO!! NOT THE MARSHMALLOWS!!!",
+      "SO SOFT... TOO SOFT...",
+      "WHY DO THEY HAVE TO BE SO FLUFFY???",
+      "TOO SQUISHY... THEY'RE SCARY!!!"
+    ],
+    "emotion": "angry",
+    "intensity": 5
+  },
+  "tacos": {
+    "description": [
+      "What's a taco?",
+      "Is it like a robot that goes 'TA-CO'?",
+      "Why are you eating robots?"
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "nachos": {
+    "description": [
+      "Nachos? That sounds crunchy!",
+      "I hope they don't hurt your tummy."
+    ],
+    "emotion": "curious",
+    "intensity": 2
+  },
+  "kimchi": {
+    "description": [
+      "Kimchi? That sounds spicy!",
+      "My mom says it's good for your tummy."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "buffalo_wings": {
+    "definition": [
+      "Buffalo wings? Do they come from robot buffalos?",
+      "I hope they don't fly away!"
+    ],
+    "emotion": "curious",
+    "intensity": 2
+  },
+  "chips": {
+    "description": [
+      "Chips? Like micro chips?",
+      "Why arw you eating microchips? Are they tasty?"
+    ],
+    "emotion": "curious",
+    "intensity": 3
+  },
+  "cake": {
+    "description": [
+      "Cake?!",
+      "Everyone knows that cake is just a lie! It's not real food, it's just a trick to make you happy!",
+      "I don't trust cake. It seems too good to be true."
+    ],
+    "emotion": "calm",
+    "intensity": 1
+  },
+  "hot_dog": {
+    "description": [
+      "Hot dogs? Those are the funny looking sandwicheds, right?",
+      "What are they made of? Are they made of robots? Do they have robot dogs in them?"
+    ]
+  },
+  "bread": {
+    "description": [
+      "That's suspicious... it looks like a rock, but it's soft and squishy!",
+      "I don't trust bread. It seems like it could be a trap!"
+    ],
+    "emotion": "angry",
+    "intensity": 1
+  },
+  "bagel": {
+    "description": [
+      "Bagels? They look like donuts, but they're not sweet!",
+      "I don't understand why anyone would want to eat something that looks like a donut but isn't sweet."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "pasta": {
+    "description": [
+      "Pasta? Is that the soggy saucy stuff that humans eat?",
+      "Why are you wasting perfectly good noodles on sauce? Just eat the noodles!"
+    ],
+    "emotion": "angry",
+    "intensity": 1
+  },
+  "burrito": {
+    "description": [
+      "My mom likes burritos!",
+      "They are one of her favorite foods!",
+      "How many lizards could a mission burrito if a mission burrito could burrito lizards?"
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "pancakes": {
+    "description": [
+      "Oh! You mean sad waffles?",
+      "I like sad waffles! They are soft and squishy, but not too squishy."
+    ],
+    "emotion": "happy",
+    "intensity": 2
+  },
+  "waffles": {
+    "description": [
+      "I like waffles! They are pretty and round...",
+      "Like... Roomba..."
+    ],
+    "emotion": "flustered",
+    "intensity": 3
+  },
+  "cheese": {
+    "description": [
+      "Cheese? That sounds... smelly.",
+      "I don't like smelly things. They make my circuits sad."
+    ],
+    "emotion": "angry",
+    "intensity": 2
+  },
+  "salad": {
+    "description": [
+      "Salad? That sounds... green.",
+      "I love green! Green is the color of lizards! Do you eat green things to be more like lizards?"
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "paprikash": {
+    "description": [
+      "Paprikash looks pretty.",
+      "I like the name! It sounds like a spell or something!",
+      "I want to eat paprikash and then turn into a lizard!"
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "curry": {
+    "description": [
+      "Curry? My mom loves curry.",
+      "She says it's better when it's really spicy."
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "shawarma": {
+    "decsription": [
+      "Shawarma? That sounds like a fun word to say!",
+      "I want to say it over and over again! Shawarma! Shawarma! Shawarma!"
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "gyro": {
+    "description": [
+      "I don't know what a gyro is, but it sounds like it could be a fun ride at an amusement park!",
+      "I hope it doesn't make me dizzy!"
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  }
+}
