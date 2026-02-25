@@ -1,21 +1,32 @@
 # ------------------------------
 #  IMPORTS
 # ------------------------------
-from data.names import names
-from data.age import age
-from data.colors import colors
-from data.cities import cities
-from data.robots import robots
-from data.food import food
-from data.jobs import jobs
+import json
+from pathlib import Path
+
+DATA_DIR = Path(__file__).resolve().parents[1] / "data"
+
+
+def load_json(filename):
+    with open(DATA_DIR / filename, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+names = load_json("names.json")
+age = load_json("age.json")
+colors = load_json("colors.json")
+cities = load_json("cities.json")
+robots = load_json("robots.json")
+food = load_json("food.json")
+jobs = load_json("jobs.json")
 
 
 # ------------------------------
 #  QUESTION BANK
 # ------------------------------
 QUESTION_BANK = {
-    "name": "OMG! HI MEAT CREATURE! Do you have a name? What's your name? ",
-    "age": "So... how old are you? ",
+    "name": "OMG! HI MEAT CREATURE! Do you have a name? I wanna know your name. What's your name? ",
+    "age": "So... how old are you? Are you OLD? ",
     "color": "What's your favorite color, meaty one? ",
     "city": "Where do you live? I hope it's somewhere cool. ",
     "robot": "Who's your favorite robot? ",
@@ -125,8 +136,8 @@ FOOD_VARIATIONS = {
     "marshmallows": "marshmallow",
     "ice cream": "ice_cream",
     "icecream": "ice_cream",
-    "hot dog": "hotdog",
-    "hotdog": "hotdog",
+    "hot dog": "hot_dog",
+    "hotdog": "hot_dog",
     "baguette": "bread",
     "flapjacks": "pancakes",
     "pancakes": "pancakes",
