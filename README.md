@@ -1,11 +1,11 @@
-# dennis-bot v0.4.2
+# dennis-bot v0.5.0
 A chaotic beginner-friendly Python bot with feelings, too many opinions and an unhealthy amount of confidence for someone who is one (1) year old.
 
 This project is a learning space for Python fundamentals, structure and versioning.
 
 Features (updated)
 - Expanded data files
-- Updated dialogue 
+- UMigrated data files to JSON
 
 Planned Features
 - State machine reactions
@@ -13,7 +13,6 @@ Planned Features
 - Holiday-based behaviour
 - UI assets
 - Emotion tracking and mood persistence
-- Data file migration
 
 How to Run
 1) Clone the repo.
