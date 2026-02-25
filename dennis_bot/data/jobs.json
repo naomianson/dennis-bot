@@ -1,0 +1,254 @@
+{
+  "human": {
+    "decsription": [
+      "You chose to be squishy?",
+      "Why would you do that?",
+      "That's weird..."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "robot": {
+    "decsription": [
+      "You chose to be a robot?!",
+      "UncleGPT is a robot!",
+      "He gets his powers from the ghosts."
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "wizard": {
+    "description": [
+      "YOU'RE A WIZARD?!?!",
+      "Do you live in the fog with Claude?"
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "lizard": {
+    "description": [
+      "YOU ARE A LIZARD?!?!",
+      "I LOVE LIZARDS!",
+      "Can we be friends?",
+      "I want to be friends!"
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "doctor": {
+    "description": [
+      "You heal people?",
+      "So... are you like a wizard but not as cool?"
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "engineer": {
+    "description": [
+      "You help robots?",
+      "How many robots do you know?",
+      "Do you have a favorite robot?"
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "barista": {
+    "description": [
+      "You make the breakfast soup my mom drinks.",
+      "It gives her super powers."
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "fire_fighter": {
+    "description": [
+      "You get in fights with fire?",
+      "Do you pinch it?",
+      "Does it hurt?"
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "bus_driver": {
+    "description": [
+      "YOU'RE A BUS?!?!",
+      "How did you become a bus?",
+      "That's so cool!"
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "ghost": {
+    "description": [
+      "Are you one of the ghosts that haunts my uncle?",
+      "He has 1455 ghosts",
+      "He used to have more."
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "mailman": {
+    "description": [
+      "You bring the magic boxes to my mom!",
+      "Are you training to be a wizard?"
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "teacher": {
+    "description": [
+      "Are you the one who taught the fod wizard his spells?",
+      "Can you teach me how to summon lozards?"
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "poet": {
+    "description": [
+      "You write words?",
+      "Do you write words about... feelings?",
+      "Can... can you teach me?",
+      "I wanna learn how to write wordy things for... her."
+    ],
+    "emotion": "flustered",
+    "intensity": 3
+  },
+  "farmer": {
+    "description": [
+      "What's that?",
+      "Do you plant robots and help them grow?",
+      "Do you grow robot food?"
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "cust_service": {
+    "decsription": [
+      "My mom says that's a rough job, and that people are mean to you.",
+      "I'm sorry people are mean.",
+      "Do you want a lizard?"
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "chef": {
+    "description": [
+      "You make food?",
+      "Do you make food for robots?",
+      "Can you teach me how to make food?"
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "santa": {
+    "description": [
+      "YOU'RE SANTA?!?!",
+      "My mom told me about you!",
+      "Can I have a pogo-stick? I promise I have been good!"
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "nurese": {
+    "description": [
+      "You help people just like doctors?",
+      "That's cool... not as cool as wizards though."
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "scientits": {
+    "description": [
+      "You do experiments?",
+      "Do you do them with robots?",
+      "I hope you are nice to the robots."
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "dentist": {
+    "description": [
+      "You look in people's mouths?",
+      "That sounds really scary!",
+      "You must be very brave!"
+    ],
+    "emotion": "sad",
+    "intensity": 2
+  },
+  "pilot": {
+    "description": [
+      "You are one of those sky robot people",
+      "Does the robot have to eat you?"
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "artist": {
+    "decsription": [
+      "You make pictures?",
+      "Can you teach me?",
+      "I want to draw lizards for her..."
+    ],
+    "emotion": "flustered",
+    "intensity": 3
+  },
+  "actor": {
+    "description": [
+      "YOu pretend to be other people?",
+      "That sounds like fun!",
+      "Sometimes I like to pretend to be a lizard."
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "IT": {
+    "decsription": [
+      "You help robots when they are sad?",
+      "That sounds like a good job!"
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "plumber": {
+    "description": [
+      "You fix pipes?",
+      "Do you know Mario or Luigi?",
+      "Are YOU secretly Mario?"
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "accountant": {
+    "description": [
+      "You help robots when they are sad?",
+      "That sounds like a good job!"
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "lawer": {
+    "description": [
+      "You help people with their big people problems?",
+      "That sounds stressful."
+    ],
+    "emotion": "sad",
+    "intensity": 2
+  },
+  "graphic_designer": {
+    "description": [
+      "You make pictures on the computer?",
+      "Can you teach me? I want to make things for lizards."
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "mechanic": {
+    "description": [
+      "You help the sick robots!",
+      "You must know a lot about robots.",
+      "So you know why some robots have snakes in them?"
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  }
+}
