@@ -1,20 +1,20 @@
-# dennis-bot v0.5.0
+# Dennis Bot v0.5.0
 A chaotic beginner-friendly Python bot with feelings, too many opinions and an unhealthy amount of confidence for someone who is one (1) year old.
 
 This project is a learning space for Python fundamentals, structure and versioning.
 
-Features (updated)
+## Features (updated)
 - Expanded data files
-- UMigrated data files to JSON
+- Migrated data files to JSON
 
-Planned Features
+## Planned Features
 - State machine reactions
 - API Integrations
 - Holiday-based behaviour
 - UI assets
-- Emotion tracking and mood persistence
+- Emotion tracking, and mood persistence
 
-How to Run
+## How to Run
 1) Clone the repo.
 2) Ensure you are using python 3.x
 3) Run: main.py
@@ -22,9 +22,9 @@ How to Run
 This is a learning project. Expect chaos.
 
 
-LICENSE
+## LICENSE
 
-Copyright 2026 Naomi Anson
+#### Copyright 2026 Naomi Anson
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
