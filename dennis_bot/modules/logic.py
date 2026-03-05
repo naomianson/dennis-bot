@@ -341,7 +341,7 @@ def main():
     ask_robot()
     ask_food()
     ask_job()
-    print("\nOKAY I WANNA LOOK AT LIZARDS NOW!!!")
+    print("\nOKAY!!! I WANNA LOOK AT LIZARDS NOW!!! I LOVE LIZARDS")
 
 
 if __name__ == "__main__":
