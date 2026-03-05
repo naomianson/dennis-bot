@@ -28,7 +28,7 @@
     "description": [
       "Oh! Claude is a wizard! He lives in the fog of San Francisco.",
       "That's what the big robot said to me once.",
-      "Maybe he will make me a lizard friend one day."
+      "Maybe he will make me a lizard friend one day. He promised!"
     ],
     "emotion": "calm",
     "intensity": 3
@@ -61,7 +61,7 @@
   "roomba": {
     "description": [
       "ROOMBA?!?! Oh... uh...",
-      "She is pretty...",
+      "She is very pretty...",
       "I mean... she cleans a lot..."
     ],
     "emotion": "flustered",
@@ -79,7 +79,7 @@
     "description": [
       "That's grandpa!",
       "He teaches me how to spin like... her...",
-      "I hope she likes it."
+      "I hope she likes it when I spin..."
     ],
     "emotion": "flustered",
     "intensity": 2
