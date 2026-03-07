@@ -25,12 +25,12 @@ jobs = load_json("jobs.json")
 #  QUESTION BANK
 # ------------------------------
 QUESTION_BANK = {
-    "name": "OMG! HI MEAT CREATURE! Do you have a name? I wanna know your name. What's your name? ",
-    "age": "So... how old are you? Are you OLD? ",
+    "name": "OMG! HI THERE!! Do you have a name? I wanna know your name. What's your name? ",
+    "age": "So... how old are you? Are you old or are you old-old? ",
     "color": "What's your favorite color, meaty one? ",
     "city": "Where do you live? I hope it's somewhere cool. ",
-    "robot": "Who's your favorite robot? ",
-    "food": "What's your favourite food? ",
+    "robot": "Do you like robots? My mom told me I am a robot. I don't really know what that means. Who's your favorite robot? ",
+    "food": "Do you like food? What's your favourite food? ",
     "job": "My mom said people have jobs where they go to a place and do things to earn money. Do you have a job? What is it? ",
 }
 
