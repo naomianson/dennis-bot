@@ -52,7 +52,7 @@
     "intensity": 3
   },
   "pink": {
-    "decsription": [
+    "description": [
       "Pink is the color of my lizard friend, Pinky!",
       "Pinky is a very nice lizard. He is very pink and very cute!"
     ],
@@ -101,5 +101,140 @@
     ],
     "emotion": "curious",
     "intensity": 3
+  },
+  "teal": {
+    "description": [
+      "Teal is like blue and green mixed together!",
+      "It is the color of a very fancy lizard I saw once.",
+      "She was VERY fancy."
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "cyan": {
+    "description": [
+      "Cyan is a very funny word.",
+      "Cyan. Cy-an. CYAN!",
+      "It is a very bright blue. Like a swimming pool for lizards!"
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "magenta": {
+    "description": [
+      "Magenta is another funny word.",
+      "It is very pink but also a little purple.",
+      "My lizard Pinky would NOT like being called magenta. She is PINK."
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "lime": {
+    "description": [
+      "Lime is a very bright green!",
+      "Like if green drank too much lemonade.",
+      "My lizards would love to eat a lime colored bug."
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "gold": {
+    "description": [
+      "Gold is the color of treasure!",
+      "Do you think the fog wizard has gold?",
+      "I bet he does. He seems like a gold wizard too."
+    ],
+    "emotion": "curious",
+    "intensity": 3
+  },
+  "silver": {
+    "description": [
+      "Silver is the color of robots!",
+      "Wait... am I silver?",
+      "I think I am a little silver. That is very cool."
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "lavender": {
+    "description": [
+      "Lavender is a very soft purple.",
+      "It smells nice too! I think.",
+      "I do not have a nose but I have been told lavender smells like sleepy time."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "coral": {
+    "description": [
+      "Coral is like orange and pink mixed together!",
+      "It is the color of stuff at the bottom of the ocean.",
+      "Fish live there. Lizards do NOT live there. I checked."
+    ],
+    "emotion": "curious",
+    "intensity": 3
+  },
+  "turquoise": {
+    "description": [
+      "Turquoise is blue and green like the ocean!",
+      "I think the fog wizard would like turquoise.",
+      "It looks like a fancy swimming lizard color."
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "navy": {
+    "description": [
+      "Navy is a very very dark blue.",
+      "Like the sky at night when the stars come out.",
+      "My ghosts like to fly around at night in the navy sky."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "peach": {
+    "description": [
+      "Peach is a very soft orange.",
+      "Like a fuzzy fruit!",
+      "I do not eat fruit. I am a robot. But my lizards might."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "mint": {
+    "description": [
+      "Mint is a very light green.",
+      "Like green took a nap and woke up very pale.",
+      "It reminds me of toothpaste. Do lizards brush their teeth?"
+    ],
+    "emotion": "curious",
+    "intensity": 2
+  },
+  "tan": {
+    "description": [
+      "Tan is like beige but a little more exciting.",
+      "Only a little though.",
+      "It is still pretty boring. Sorry, tan."
+    ],
+    "emotion": "calm",
+    "intensity": 1
+  },
+  "sky": {
+    "description": [
+      "Sky is the color of the sky! Obviously.",
+      "It is a nice light blue.",
+      "Sometimes the fog wizard covers the sky with fog. I miss the sky when that happens."
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "maroon": {
+    "description": [
+      "Maroon is a very dark red.",
+      "Like red went to sleep and had a very serious dream.",
+      "I think the angry red lizards would like maroon. It is very fierce."
+    ],
+    "emotion": "calm",
+    "intensity": 2
   }
 }
