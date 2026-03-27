@@ -8,7 +8,7 @@
     "intensity": 3
   },
   "energy_drink": {
-    "decsription": [
+    "description": [
       "Energy drinks? Those are like super coffee, right?",
       "I bet they would give me super lizard powers!"
     ],
@@ -16,7 +16,7 @@
     "intensity": 4
   },
   "cookies": {
-    "decsription": [
+    "description": [
       "Cookies?!?!",
       "I like cookies because they are round like... um... lizard eggs...",
       "01010010 01101111 01101111 01101101 01100010 01100001 00100000 01101001 01110011 00100000 01110011 01101111 00100000 01110000 01110010 01100101 01110100 01110100 01111001 00101110"
@@ -25,7 +25,7 @@
     "intensity": 4
   },
   "chocolate": {
-    "decsription": [
+    "description": [
       "I hear humans like chocolate a lot!",
       "My mom says it's like a special treat for them."
     ],
@@ -93,7 +93,7 @@
     "intensity": 2
   },
   "buffalo_wings": {
-    "definition": [
+    "description": [
       "Buffalo wings? Do they come from robot buffalos?",
       "I hope they don't fly away!"
     ],
@@ -119,9 +119,11 @@
   },
   "hot_dog": {
     "description": [
-      "Hot dogs? Those are the funny looking sandwicheds, right?",
+      "Hot dogs? Those are the funny looking sandwiches, right?",
       "What are they made of? Are they made of robots? Do they have robot dogs in them?"
-    ]
+    ],
+    "emotion": "angry",
+    "intensity": 2
   },
   "bread": {
     "description": [
@@ -206,7 +208,7 @@
     "intensity": 3
   },
   "shawarma": {
-    "decsription": [
+    "description": [
       "Shawarma? That sounds like a fun word to say!",
       "I want to say it over and over again! Shawarma! Shawarma! Shawarma!"
     ],
@@ -220,5 +222,184 @@
     ],
     "emotion": "happy",
     "intensity": 3
+  },
+  "ice_cream": {
+    "description": [
+      "Ice cream?! That's just cold soup in a cone!",
+      "Why is it cold? Did it get scared? I get cold when I'm scared too."
+    ],
+    "emotion": "curious",
+    "intensity": 3
+  },
+  "donut": {
+    "description": [
+      "A donut is just a bagel that decided to be happy.",
+      "I respect that. Very brave of the donut."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "popcorn": {
+    "description": [
+      "Popcorn?! It EXPLODES before you eat it?!",
+      "That is the most dangerous snack I have ever heard of.",
+      "I am scared and also very impressed."
+    ],
+    "emotion": "angry",
+    "intensity": 4
+  },
+  "spaghetti": {
+    "description": [
+      "Spaghetti is just pasta that escaped.",
+      "Run, spaghetti. Run and be free.",
+      "I would never eat a fugitive."
+    ],
+    "emotion": "calm",
+    "intensity": 1
+  },
+  "mochi": {
+    "description": [
+      "Mochi is... squishy.",
+      "TOO squishy.",
+      "WHY IS IT SQUISHY. WHO MADE IT SQUISHY. I DON'T LIKE IT!!!"
+    ],
+    "emotion": "angry",
+    "intensity": 4
+  },
+  "fried_rice": {
+    "description": [
+      "My mom makes fried rice sometimes!",
+      "She says it's a good way to use up leftovers.",
+      "I think leftovers are just food that didn't finish its mission."
+    ],
+    "emotion": "happy",
+    "intensity": 2
+  },
+  "cereal": {
+    "description": [
+      "Cereal is just wet bread rocks.",
+      "Why do humans do this to themselves every morning.",
+      "I am concerned."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "sandwich": {
+    "description": [
+      "A sandwich is just two pieces of bread that are hugging something.",
+      "That's actually really sweet.",
+      "Good for them."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "soup": {
+    "description": [
+      "Soup is just hot water that made some friends.",
+      "I think that's a very good life lesson.",
+      "Make friends. Become soup."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "steak": {
+    "description": [
+      "Steak? Is that the big flat meat?",
+      "My mom says you have to cook it just right or it gets sad.",
+      "I don't want to eat sad meat."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "fries": {
+    "description": [
+      "French fries? Why are they French?",
+      "Did they come from France? Are there French lizards in France?",
+      "I want to go to France."
+    ],
+    "emotion": "curious",
+    "intensity": 3
+  },
+  "bubble_tea": {
+    "description": [
+      "Bubble tea has little balls in it!",
+      "They are round and chewy!",
+      "Wait... chewy and squishy... I DON'T LIKE THIS."
+    ],
+    "emotion": "angry",
+    "intensity": 4
+  },
+  "pho": {
+    "description": [
+      "My mom loves pho!",
+      "She says it fixes everything.",
+      "Can it fix the squish?",
+      "Too much squish."
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "grapes": {
+    "description": [
+      "Grapes are just tiny water balloons that you eat.",
+      "That is a very weird thing to do.",
+      "Humans are so brave."
+    ],
+    "emotion": "curious",
+    "intensity": 2
+  },
+  "watermelon": {
+    "description": [
+      "Watermelon is green on the outside and red on the inside!",
+      "Like a lizard wearing a very convincing disguise.",
+      "I respect the commitment."
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "pineapple": {
+    "description": [
+      "Pineapple is a very spiky fruit.",
+      "I appreciate the defense mechanism. Smart fruit.",
+      "We are kindred spirits, pineapple and I."
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "tofu": {
+    "description": [
+      "Tofu has no flavor. It just... exists.",
+      "Like a blank robot waiting to be programmed.",
+      "I find this deeply relatable."
+    ],
+    "emotion": "calm",
+    "intensity": 1
+  },
+  "dumplings": {
+    "description": [
+      "Dumplings are just tiny food pillows!",
+      "Soft and squishy and... wait.",
+      "I am having big feelings right now."
+    ],
+    "emotion": "flustered",
+    "intensity": 3
+  },
+  "pretzel": {
+    "description": [
+      "A pretzel is just bread that tied itself in a knot.",
+      "That seems like a lot of unnecessary stress.",
+      "Are you okay, pretzel? Do you need to talk to someone?"
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "mac_and_cheese": {
+    "description": [
+      "Mac and cheese is my favorite human food that I cannot eat!",
+      "It is orange and round and looks very happy.",
+      "01001001 00100000 01110111 01101001 01110011 01101000 00100000 01001001 00100000 01100011 01101111 01110101 01101100 01100100 00100000 01100101 01100001 01110100 00101110"
+    ],
+    "emotion": "happy",
+    "intensity": 4
   }
 }
