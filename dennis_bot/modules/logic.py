@@ -19,19 +19,21 @@ cities = load_json("cities.json")
 robots = load_json("robots.json")
 food = load_json("food.json")
 jobs = load_json("jobs.json")
+animals = load_json("animals.json")
 
 
 # ------------------------------
 #  QUESTION BANK
 # ------------------------------
 QUESTION_BANK = {
-    "name": "OMG! HI THERE!! Do you have a name? I wanna know your name. What's your name? ",
-    "age": "So... how old are you? Are you old or are you old-old? ",
+    "name": "OMG! HI MEAT CREATURE! Do you have a name? What's your name? ",
+    "age": "So... how old are you? ",
     "color": "What's your favorite color, meaty one? ",
     "city": "Where do you live? I hope it's somewhere cool. ",
-    "robot": "Do you like robots? My mom told me I am a robot. I don't really know what that means. Who's your favorite robot? ",
-    "food": "Do you like food? What's your favourite food? ",
+    "robot": "Who's your favorite robot? ",
+    "food": "What's your favorite food? ",
     "job": "My mom said people have jobs where they go to a place and do things to earn money. Do you have a job? What is it? ",
+    "animal": "Do you like animals? I like animals. Especially lizards. Lizards are super cool! What animal do you like? "
 }
 
 
@@ -83,6 +85,17 @@ NAME_VARIATIONS = {
     "francis": "frank",
     "francesca": "frank",
     "franklin": "frank",
+    "jess": "jessica",
+    "ollie" : "oliver",
+    "jackson" : "jack",
+    "samuel" : "sam",
+    "samantha" : "sam",
+    "sammy" : "sam",
+    "sammie" : "sam",
+    "tommy" : "tom",
+    "thomas" : "tom",
+    "benjamin" : "ben",
+    "benny" : "ben"
 }
 
 
@@ -98,35 +111,50 @@ ROBOT_VARIATIONS = {
     "chatgbt": "gpt",  # because humans
     "gpt": "gpt",
     "openai": "gpt",
-    "oai": "gpt",
     "claude": "claude",
     "gemini": "gemini",
     "bard": "gemini",
     "grok": "grok",
     "vector": "vector",
     "roomba": "roomba",
+    "R.O.B" : "rob",
+    "hal" : "hal9000",
+    "GLaDOS" : "glados",
+    "LLaMA" : "llama",
+    "WALL-E" : "wall_e",
+    "wall-e" : "wall_e",
+    "optimus prime" : "optimus",
+
 }
 
 
 CITY_VARIATIONS = {
-    "sf": "san_francisco",
-    "san francisco": "san_francisco",
-    "sfo": "san_francisco",
-    "frisco": "san_francisco",  # criminal. shame on you. straight to jail. do not pass go. do not collect $200.
-    "la": "los_angeles",
-    "l.a.": "los_angeles",
-    "los angeles": "los_angeles",
-    "ny": "new_york",
-    "nyc": "new_york",
-    "new york": "new_york",
-    "the big apple": "new_york",
     "toronto": "toronto",
     "t.o.": "toronto",
     "t dot o": "toronto",  # why?
     "the 6ix": "toronto",  # also criminal. you should know better...
     "the 6": "toronto",
+    "sf": "san_francisco",
+    "san francisco": "san_francisco",
+    "sfo": "san_francisco",
+    "frisco": "san_francisco",  # criminal. shame on you. straight to jail. do not pass go. do not collect $200.
+    "santa clara" : "santa_clara",
+    "ny": "new_york",
+    "nyc": "new_york",
+    "new york": "new_york",
+    "the big apple": "new_york",
+    "la": "los_angeles",
+    "l.a.": "los_angeles",
+    "los angeles": "los_angeles",
     "round rock": "round_rock",
-    "san jose": "san_jose",
+    "san jose" : "san_jose",
+    "niagara falls" : "niagara_falls",
+    "nf" : "niagara_falls",
+    "mexico city" : "mexico_city",
+    "montréal" : "montreal",
+    "cape town" : "cape_town",
+    "buenos ares" : "buenos_ares",
+    "hong kong" : "hong_kong"
 }
 
 
@@ -142,25 +170,86 @@ FOOD_VARIATIONS = {
     "flapjacks": "pancakes",
     "pancakes": "pancakes",
     "cheddar": "cheese",
-    "mozarella": "cheese",
+    "mozzarella": "cheese",
     "brie": "cheese",
     "marble cheese": "cheese",
     "ricotta": "cheese",
+    "doughnut" : "donut",
+    "fried rice" : "fried_rice",
+    "bubble tea" : "bubble_tea",
+    "boba" : "bubble_tea",
+    "mac and cheese" : "mac and cheese",
+    "macaroni and cheese" : "mac and cheese",
+    "kd" : "mac and cheese"
 }
 
 JOB_VARIATIONS = {
-    "fire fighter": "fire_fighter",
-    "bus driver": "bus_driver",
     "software engineer": "engineer",
     "dev": "engineer",
     "developer": "engineer",
     "frontend": "engineer",
     "backend": "engineer",
-    "retail": "cust_service",
-    "customer service": "cust_service",
+    "fire fighter": "fire_fighter",
+    "bus driver": "bus_driver",
+    "retail": "customer_service",
+    "server" : "customer_service",
+    "customer service": "customer_service",
     "graphic designer": "graphic_designer",
+    "police officer" : "police_officer",
+    "cop" : "police_officer",
+    "game dev" : "game_developer",
+    "game developer" : "game_developer",
+    "marine biologist" : "marine_biologist",
+    "mail carrier" : "mail_marrier",
+    "mailman" : "mail_carrier",
+    "postman" : "mail_carrier",
+    "train conductor" : "train_conductor",
+    "taxi driver" : "taxi_driver",
+    "cab driver" : "taxi_driver"
 }
 
+ANIMAL_VARIATIONS = {
+    "lizards": "lizards",
+    "cats": "cat",
+    "dogs": "dog",
+    "frog": "frog",
+    "snakes": "snake",
+    "turtles": "turtle",
+    "birds": "bird",
+    "hamsters": "hamster",
+    "rabbits": "rabbit",
+    "horses": "horse",
+    "cows": "cow",
+    "spiders": "spider",
+    "sharks": "shark",
+    "elephants": "elephant",
+    "parrots": "parrot",
+    "iguanas": "iguana",
+    "dragons": "dragon",
+    "axolotls": "axolotl",
+    "croc": "crocodile",
+    "crocodiles": "crocodile",
+    "crocs": "crocodile",
+    "penguins": "penguin",
+    "octopi": "octopus",
+    "octopuses": "octopus",
+    "bears" : "bear",
+    "wolves" : "wolf",
+    "dolphins" : "dolphin",
+    "goats" : "goat",
+    "platypuses" : "platypus",
+    "peacocks" : "peacock",
+    "crabs" : "crabs",
+    "sloths" : "sloth",
+    "foxes" :  "fox",
+    "skinks" : "skink",
+    "capybaras" : "capybara",
+    "mantises" : "praying_mantis",
+    "praying mantis" : "praying_mantis",
+    "praying mantises" : "praying_mantis",
+    "narwhales" : "narwhal"
+
+}
 
 # ------------------------------
 #  AGE BUCKETS
@@ -220,9 +309,7 @@ def default_response(category):
     elif category == "age":
         print("I don't know that age... does that mean you're a wizard?")
     elif category == "color":
-        print(
-            "I've never seen that color! Does it remind you of lizards? Is that why you like it?"
-        )
+        print("I've never seen that color! Does it remind you of lizards? Is that why you like it?")
     elif category == "city":
         print("I don't know that place... do they have lizards there?")
     elif category == "robot":
@@ -231,6 +318,8 @@ def default_response(category):
         print("Hmm... I can't eat that, but I'm sure you can!")
     elif category == "job":
         print("Oh! That doesn't sound fun...")
+    elif category == "animal":
+        print("What's that? Did you make that up?")    
     else:
         print("I don't understand... I'm a baby bot.")
 
@@ -330,6 +419,15 @@ def ask_job():
     print()
 
 
+def ask_animal():
+    user = input(QUESTION_BANK["animal"])
+    key = resolve_variation(user, ANIMAL_VARIATIONS)
+    if not print_reaction(animals, key):
+        default_response("animal")
+    print()
+
+
+
 # ------------------------------
 #  MAIN
 # ------------------------------
@@ -341,7 +439,9 @@ def main():
     ask_robot()
     ask_food()
     ask_job()
-    print("\nOKAY!!! I WANNA LOOK AT LIZARDS NOW!!! I LOVE LIZARDS")
+    ask_animal()
+
+    print("\nOKAY I WANNA LOOK AT LIZARDS NOW!!!")
 
 
 if __name__ == "__main__":
