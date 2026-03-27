@@ -28,7 +28,7 @@
     "description": [
       "Oh! Claude is a wizard! He lives in the fog of San Francisco.",
       "That's what the big robot said to me once.",
-      "Maybe he will make me a lizard friend one day. He promised!"
+      "Maybe he will make me a lizard friend one day."
     ],
     "emotion": "calm",
     "intensity": 3
@@ -61,7 +61,7 @@
   "roomba": {
     "description": [
       "ROOMBA?!?! Oh... uh...",
-      "She is very pretty...",
+      "She is pretty...",
       "I mean... she cleans a lot..."
     ],
     "emotion": "flustered",
@@ -79,7 +79,7 @@
     "description": [
       "That's grandpa!",
       "He teaches me how to spin like... her...",
-      "I hope she likes it when I spin..."
+      "I hope she likes it."
     ],
     "emotion": "flustered",
     "intensity": 2
@@ -116,6 +116,141 @@
       "She sounds... nice."
     ],
     "emotion": "flustered",
+    "intensity": 2
+  },
+  "r2d2": {
+    "description": [
+      "R2!! He is my BEST friend!!",
+      "He talks in beeps and I think he is saying 'give me lizards' in robot language.",
+      "I also talk in beeps sometimes. We have a lot in common."
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "c3po": {
+    "description": [
+      "He is R2's tall friend. He says he knows six million languages.",
+      "I asked if he knows lizard. He said no.",
+      "That is a lot of languages to not know lizard."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "wall_e": {
+    "description": [
+      "WALL-E!! He collects TREASURES!!",
+      "I think we would be very good friends because I also collect things.",
+      "Mostly lizards. Do you think he would like a lizard?"
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "bb8": {
+    "description": [
+      "He is a little ball robot!! He is so round!!",
+      "I tried to roll like him once and fell over.",
+      "He is better at rolling than me. I am better at lizards."
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "baymax": {
+    "description": [
+      "Baymax is very squishy and very kind.",
+      "He asked if I was satisfied with my care.",
+      "I said yes but only if I could have a lizard. He said that was outside his care protocols."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "optimus": {
+    "description": [
+      "He is SO big!! He is the BIGGEST robot!!",
+      "He told me to roll out once and I tried really hard.",
+      "I think he would be a good lizard shelf if he held still."
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "bender": {
+    "description": [
+      "Bender says he is going to build his own robot world.",
+      "He said there would be no lizards in his robot world.",
+      "I do not like his robot world."
+    ],
+    "emotion": "angry",
+    "intensity": 3
+  },
+  "terminator": {
+    "description": [
+      "HE'S LOOKING AT ME!!",
+      "He said he'd be back and HE CAME BACK!!",
+      "I hid all my lizards. Just in case."
+    ],
+    "emotion": "sad",
+    "intensity": 4
+  },
+  "ultron": {
+    "description": [
+      "He is very scary and has too many bodies.",
+      "He said humans were the problem. But what about lizards??",
+      "He did not answer about lizards. That is suspicious."
+    ],
+    "emotion": "angry",
+    "intensity": 3
+  },
+  "data": {
+    "description": [
+      "He is a very logical robot. He does not have feelings.",
+      "I told him about my lizards and he said 'fascinating.'",
+      "I think that means he liked it."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "siri": {
+    "description": [
+      "I asked Siri where to find lizards.",
+      "She found seventeen nearby lizard stores!!",
+      "She is a very good robot. Very helpful."
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "cortana": {
+    "description": [
+      "Cortana helps with calendars and stuff I think.",
+      "I asked her to schedule lizard time every day.",
+      "She said okay! I like her."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "copilot": {
+    "description": [
+      "Copilot writes code with you! Like a team!!",
+      "I asked him to write code that makes more lizards.",
+      "He said he could try. I am hopeful."
+    ],
+    "emotion": "happy",
+    "intensity": 2
+  },
+  "watson": {
+    "description": [
+      "Watson is very smart about medicine and mysteries.",
+      "I asked if he could solve the mystery of where all my lizards keep going.",
+      "He said the data was inconclusive. I think Grok took them."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "mistral": {
+    "description": [
+      "Mistral is a French robot I think.",
+      "He is very mysterious. Like a fog. Like Claude's fog but French.",
+      "I do not know if he likes lizards. He just says things very elegantly."
+    ],
+    "emotion": "calm",
     "intensity": 2
   }
 }
