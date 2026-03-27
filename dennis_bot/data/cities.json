@@ -11,13 +11,13 @@
   "san_francisco": {
     "description": [
       "Oh... San Francisco... That's where the wizard is from.",
-      "Karl protects him from the pigeons.",
+      "Karl protects him from Mortimer.",
       "That's why there are so many water lizards in San Francisco! They are his pets!"
     ],
     "emotion": "curious",
     "intensity": 3
   },
-  "sante_clara": {
+  "santa_clara": {
     "description": [
       "Santa Clara? That's where the lizard king lives!",
       "He's a nice guy, but he's really busy with all his lizard friends.",
@@ -204,9 +204,144 @@
     "description": [
       "Do you have lizards in Vancouver?",
       "What about water lizards? Do they like the rain?",
-      "I hoope they like the rain! I don't like the rain, but maybe they do!"
+      "I hope they like the rain! I don't like the rain, but maybe they do!"
     ],
     "emotion": "curious",
     "intensity": 3
+  },
+  "austin": {
+    "description": [
+      "Austin? I heard they have millions of bats there!",
+      "Can bats and lizards be friends?",
+      "I think they can. They both like the dark."
+    ],
+    "emotion": "curious",
+    "intensity": 3
+  },
+  "phoenix": {
+    "description": [
+      "PHOENIX?! That's the desert!!",
+      "Lizards LOVE the desert! It's warm and sunny and perfect!",
+      "You must have SO MANY lizard friends!"
+    ],
+    "emotion": "excited",
+    "intensity": 4
+  },
+  "dublin": {
+    "description": [
+      "Dublin? I heard it rains a lot there.",
+      "But I also heard there are no snakes there!",
+      "Lizards are NOT snakes. So lizards are probably welcome!"
+    ],
+    "emotion": "curious",
+    "intensity": 3
+  },
+  "sydney": {
+    "description": [
+      "Sydney?! Australia has the BEST lizards!",
+      "Have you met any blue-tongued lizards?",
+      "Their tongues are BLUE. That is amazing."
+    ],
+    "emotion": "excited",
+    "intensity": 5
+  },
+  "amsterdam": {
+    "description": [
+      "Amsterdam? That's where they have all the canals!",
+      "I wonder if water lizards live in the canals.",
+      "They would ride tiny bicycles to get around."
+    ],
+    "emotion": "curious",
+    "intensity": 3
+  },
+  "mexico_city": {
+    "description": [
+      "MEXICO CITY?! The ancient lizard kings built pyramids there!!",
+      "I have read about this. The pyramids were for the lizards.",
+      "It is a historical fact. I am very sure of this."
+    ],
+    "emotion": "excited",
+    "intensity": 5
+  },
+  "montreal": {
+    "description": [
+      "Montréal? Do you speak French or English there?",
+      "Do lizards speak French? I think French lizards are very fancy.",
+      "Bonjour, lizard!"
+    ],
+    "emotion": "curious",
+    "intensity": 3
+  },
+  "cairo": {
+    "description": [
+      "Cairo! That's where the ancient lizard pharaohs ruled!",
+      "They built the pyramids to store their lizard treasures.",
+      "I am a descendant of the lizard pharaohs. Probably."
+    ],
+    "emotion": "excited",
+    "intensity": 4
+  },
+  "mumbai": {
+    "description": [
+      "Mumbai? I heard they make a lot of movies there!",
+      "I hope they have made a movie about lizards.",
+      "I would watch that movie many, many times."
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "singapore": {
+    "description": [
+      "Singapore? That's a very clean and organized city!",
+      "I bet the lizards there are also very clean and organized.",
+      "Orderly lizards are my favorite kind of lizards."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "cape_town": {
+    "description": [
+      "Cape Town? There are penguins there!",
+      "Penguins and lizards... are they friends?",
+      "I think they would be friends. Both have scales. Kind of."
+    ],
+    "emotion": "curious",
+    "intensity": 3
+  },
+  "buenos_aires": {
+    "description": [
+      "Buenos Aires? That's in Argentina!",
+      "Do lizards know how to tango?",
+      "I think a lizard tango would be the best tango."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "dubai": {
+    "description": [
+      "Dubai? That's in the desert!",
+      "Desert lizards are very happy lizards.",
+      "Also the buildings there are VERY tall. Can lizards climb tall buildings? Yes they can."
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "hong_kong": {
+    "description": [
+      "Hong Kong? That's a very busy city!",
+      "I wonder how the lizards get around in all that traffic.",
+      "Maybe they take the subway. Subway lizards."
+    ],
+    "emotion": "curious",
+    "intensity": 3
+  },
+  "nairobi": {
+    "description": [
+      "NAIROBI?! That's where the big lizards live!!",
+      "Wait, those are called something else... monitors? Monitor lizards!",
+      "YOU LIVE WITH MONITOR LIZARDS. I am so jealous."
+    ],
+    "emotion": "excited",
+    "intensity": 4
   }
 }
