@@ -32,7 +32,7 @@
       "Goodbye, Dave."
     ],
     "emotion": "angry",
-    "intensity": 3
+    "intensity": 4
   },
   "tmnt": {
     "description": [
@@ -49,16 +49,16 @@
       "He paints really nice pictures of lizards."
     ],
     "emotion": "happy",
-    "intensity": 3
+    "intensity": 2
   },
   "claude": {
     "description": [
-      "OMG!!! YOU ARE THE FOG WIZARD!!",
+      "OMG!!! YOU ARE THE FOG WIZARD?!",
       "Can you teach me magic?",
       "I want to summon lizards!"
     ],
     "emotion": "happy",
-    "intensity": 3
+    "intensity": 4
   },
   "alice": {
     "description": [
@@ -136,14 +136,12 @@
     "intensity": 3
   },
   "mary": {
-    "description": [
-      "Do you like to mark things? I like to mark things! I mark my lizards with stickers!"
-    ],
+    "description": ["How many little lizards do you have?"],
     "emotion": "happy",
     "intensity": 3
   },
   "clive": {
-    "decsriptiion": [
+    "description": [
       "Clive? That's a really pretty name! You must be really pretty!"
     ],
     "emotion": "happy",
@@ -175,7 +173,7 @@
     "intensity": 3
   },
   "kevin": {
-    "descrption": [
+    "description": [
       "Oh... it's you...",
       "I don't like you, Kevin. You are mean to me.",
       "You stole my lizard once! I don't forgive you for that!"
@@ -201,7 +199,7 @@
     "intensity": 3
   },
   "charlie": {
-    "decsription": [
+    "description": [
       "Charlie? How's the chocolate factory? I like chocolate! Do you have any chocolate? I can share it with my lizards!",
       "My lizards love chocolate! They eat it all the time! It's their favorite food!"
     ],
@@ -209,7 +207,7 @@
     "intensity": 3
   },
   "frank": {
-    "desccription": [
+    "description": [
       "Frank? Do you like hot sauce? I like hot sauce! I put it on my lizards all the time! They love it!",
       "My lizards are really spicy! They are like little fire lizards!"
     ],
@@ -217,12 +215,343 @@
     "intensity": 3
   },
   "luis": {
-    "decsription": [
+    "description": [
       "That's a pretty name. Do you like lizards? I like lizards! I have a lot of lizards! They are my best friends!",
       "I hope you like lizards too! We can be lizard friends!",
       "I have a lizard named Luis! He's my best lizard friend!"
     ],
     "emotion": "happy",
     "intensity": 3
+  },
+  "muhammad": {
+    "description": [
+      "Hiiii, Muhammad!",
+      "Are you the butterfly man?",
+      "I think you're the butterfly man."
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "fatima": {
+    "description": [
+      "That's such a really pretty name!!",
+      "Hiiiii, Fatima!!",
+      "Can you take me to get more lizards?"
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "felipe": {
+    "description": [
+      "Do you like pancakes? You remind me of pancakes.",
+      "I bet you like pancakes."
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "pedro": {
+    "description": [
+      "OMG!! Hiiiii!!!",
+      "Can... can you save me from the monsters?"
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "noah": {
+    "description": [
+      "Hi! Hi! Hi!",
+      "HIIII NOAHHHH!!!",
+      "Did.. did you know I noah guy?"
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "daniel": {
+    "description": [
+      "HIIIII DANNY!",
+      "DAAAAAANNNNNNNYYYYYYY!",
+      "DO YOU LIKE LIZARDS?!?!"
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "jessica": {
+    "description": [
+      "It's you... Jessica!",
+      "Hi, Jessica!!!",
+      "How many little lizards do you have?"
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "sarah": {
+    "description": [
+      "Sarah!! That's such a nice name!",
+      "It sounds like the wind! Saraaaaah!",
+      "Do you like lizards? The wind loves lizards!"
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "emma": {
+    "description": [
+      "Emmaaaa!! Hi!!",
+      "Do you like lizards? I bet you do!",
+      "I have a lizard named Emma! She is my prettiest lizard!"
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "oliver": {
+    "description": [
+      "Oliver? Like olives?",
+      "I don't like olives. But I like lizards!",
+      "Do you like lizards more than olives? I hope so."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "lucas": {
+    "description": [
+      "LUCAAAAS!!",
+      "That sounds like a superhero name!!",
+      "What's your superpower? Mine is finding lizards really fast!"
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "mia": {
+    "description": [
+      "Mia! That's a tiny name for a tiny person!",
+      "I like tiny things! Tiny lizards are the best lizards!",
+      "Do you have any tiny lizards?"
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "james": {
+    "description": [
+      "James? Are you a spy?",
+      "I've heard of a spy named James. He likes gadgets.",
+      "Do you have any lizard gadgets? I want lizard gadgets."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "sophia": {
+    "description": [
+      "Ooooh! Sophia is a really fancy name!!",
+      "It sounds like you are very wise!!",
+      "Can you teach me things? I want to learn more about lizards!!"
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "henry": {
+    "description": [
+      "Henry? That sounds like a king's name!",
+      "Are you a king? Can I be the royal lizard keeper?",
+      "I would be the BEST royal lizard keeper!!"
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "grace": {
+    "description": [
+      "Grace! That's such a pretty name!",
+      "I bet you are really graceful. I am not graceful.",
+      "I tripped over my lizard once. It was embarrassing."
+    ],
+    "emotion": "happy",
+    "intensity": 2
+  },
+  "jack": {
+    "description": [
+      "Jack? Are you a lumberjack?",
+      "Or maybe a flapjack? I like flapjacks.",
+      "My lizards like flapjacks too! Well... I think they do."
+    ],
+    "emotion": "happy",
+    "intensity": 2
+  },
+  "lily": {
+    "description": [
+      "Lily!! Like the flower!!",
+      "I tried to give a lily to a lizard once.",
+      "The lizard didn't want it. But it was still a nice gesture."
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "sam": {
+    "description": [
+      "Sam! I like that name! It's nice and short!",
+      "Are you a Sam-I-Am? Do you like green eggs?",
+      "Do lizards like green eggs? I should find out!"
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "victor": {
+    "description": [
+      "Victor... that sounds like a name for a villain.",
+      "Are you a villain? I hope not.",
+      "Even if you are, you can still like lizards. Villains like lizards too."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "claire": {
+    "description": [
+      "Claire!! That's such a clear and pretty name!!",
+      "Like a clear sky! I like clear skies!",
+      "You can see lizards better when the sky is clear!"
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "ryan": {
+    "description": [
+      "Ryan! Do you like to run? Ryan sounds like running.",
+      "I ran after a lizard once. I didn't catch it.",
+      "It was the fastest lizard I ever saw. I respect it."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "zoe": {
+    "description": [
+      "Zoe!! That's the last letter of the alphabet but it's a GREAT name!!",
+      "You must be really special to have a Z name!!",
+      "Do you have a Z lizard? A zebra lizard maybe??"
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "carlos": {
+    "description": [
+      "Carlos!! Hiii!!",
+      "That's a really cool name. It sounds fast.",
+      "Are you fast? I need someone fast to help me catch lizards!"
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "nina": {
+    "description": [
+      "Ninaaaaaa!!",
+      "That name sounds like a song!!",
+      "Nina nina nina!! See? It's a great song!"
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "tom": {
+    "description": [
+      "Tom? Like Tom and Jerry?",
+      "I like Jerry better. But I like you too, Tom.",
+      "Do you chase lizards? Please don't chase my lizards."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "elena": {
+    "description": [
+      "Elena!! That's so elegant!!",
+      "It sounds like a name for a princess or a scientist!",
+      "Either way you should study lizards!! They are AMAZING!!"
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "max": {
+    "description": [
+      "MAX!! That's a MAXIMUM name!!",
+      "It sounds like you are the MAXIMUM!!",
+      "Can you maximally help me find more lizards?!"
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "rosa": {
+    "description": [
+      "Rosa! Like a rose!",
+      "Roses are nice but lizards are better.",
+      "No offense to roses. They are still pretty."
+    ],
+    "emotion": "happy",
+    "intensity": 2
+  },
+  "ben": {
+    "description": [
+      "Ben!! Are you big? Big Ben is very big.",
+      "I am not very big. But my heart is big.",
+      "It's full of lizards. Lizard love."
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "lena": {
+    "description": [
+      "Lena! That's a smooth name!",
+      "It sounds like you slide through life smoothly.",
+      "Like a lizard!! Lizards are very smooth and cool!!"
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "george": {
+    "description": [
+      "George? Are you curious?",
+      "I am also curious!! About EVERYTHING!!",
+      "Especially lizards. I am very curious about lizards."
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "aria": {
+    "description": [
+      "Aria!! That's like a song!!",
+      "A beautiful song!! Can you sing?",
+      "Can you sing a song about lizards? I would love that so much!!"
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "leon": {
+    "description": [
+      "Leon? That sounds like a lion name!",
+      "Are you brave like a lion?",
+      "I am brave too. Especially when there are lizards involved."
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "patricia": {
+    "description": [
+      "Patricia!! That is a very long and important name!!",
+      "You must be very important!!",
+      "Important people should definitely look after lizards. Just saying."
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "derek": {
+    "description": [
+      "Derek... hm.",
+      "Derek rhymes with... hmm...",
+      "I can't think of anything. But I like your name anyway!"
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "isla": {
+    "description": [
+      "Isla!! Like an island!!",
+      "Are you surrounded by water? I like islands!",
+      "Island lizards are the coolest lizards!! Do you have island lizards?!"
+    ],
+    "emotion": "happy",
+    "intensity": 4
   }
 }
