@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.6.0 - Data File Migration
+
+Minor Changes
+- Expanded data files
+
+Major Changes
+- Additional data file added
+
 ## v0.5.0 - Data File Migration
 
 Minor Changes
@@ -7,7 +15,7 @@ Minor Changes
 - Updated dialogue
 
 Major Changes
-- Datafile migration to JSON
+- Data file migration to JSON
 
 ## v0.4.2 - Data Expansion and Dialogue Update
 
