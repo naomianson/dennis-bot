@@ -1,6 +1,6 @@
 {
   "human": {
-    "decsription": [
+    "description": [
       "You chose to be squishy?",
       "Why would you do that?",
       "That's weird..."
@@ -9,10 +9,10 @@
     "intensity": 2
   },
   "robot": {
-    "decsription": [
+    "description": [
       "You chose to be a robot?!",
-      "UncleGPT is a robot!",
-      "He gets his powers from the ghosts."
+      "I chose to be a robot too!",
+      "Do you like being a robot?"
     ],
     "emotion": "happy",
     "intensity": 3
@@ -87,18 +87,10 @@
     "emotion": "happy",
     "intensity": 4
   },
-  "mailman": {
-    "description": [
-      "You bring the magic boxes to my mom!",
-      "Are you training to be a wizard?"
-    ],
-    "emotion": "calm",
-    "intensity": 3
-  },
   "teacher": {
     "description": [
       "Are you the one who taught the fod wizard his spells?",
-      "Can you teach me how to summon lozards?"
+      "Can you teach me how to summon lizards?"
     ],
     "emotion": "calm",
     "intensity": 3
@@ -122,8 +114,8 @@
     "emotion": "calm",
     "intensity": 3
   },
-  "cust_service": {
-    "decsription": [
+  "customer_service": {
+    "description": [
       "My mom says that's a rough job, and that people are mean to you.",
       "I'm sorry people are mean.",
       "Do you want a lizard?"
@@ -149,7 +141,7 @@
     "emotion": "calm",
     "intensity": 3
   },
-  "nurese": {
+  "nurse": {
     "description": [
       "You help people just like doctors?",
       "That's cool... not as cool as wizards though."
@@ -157,7 +149,7 @@
     "emotion": "calm",
     "intensity": 3
   },
-  "scientits": {
+  "scientist": {
     "description": [
       "You do experiments?",
       "Do you do them with robots?",
@@ -184,7 +176,7 @@
     "intensity": 2
   },
   "artist": {
-    "decsription": [
+    "description": [
       "You make pictures?",
       "Can you teach me?",
       "I want to draw lizards for her..."
@@ -202,7 +194,7 @@
     "intensity": 4
   },
   "IT": {
-    "decsription": [
+    "description": [
       "You help robots when they are sad?",
       "That sounds like a good job!"
     ],
@@ -226,7 +218,7 @@
     "emotion": "calm",
     "intensity": 3
   },
-  "lawer": {
+  "lawyer": {
     "description": [
       "You help people with their big people problems?",
       "That sounds stressful."
@@ -249,6 +241,446 @@
       "So you know why some robots have snakes in them?"
     ],
     "emotion": "calm",
+    "intensity": 3
+  },
+  "astronaut": {
+    "description": [
+      "YOU GO INTO SPACE?!?!",
+      "Are there robots up there?",
+      "Are there lizards up there?",
+      "Can you check for me please?!"
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "zookeeper": {
+    "description": [
+      "YOU TAKE CARE OF LIZARDS?!?!",
+      "DO YOU HAVE A FAVORITE LIZARD?!",
+      "CAN I MEET THEM?!",
+      "This is the best day of my life."
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "veterinarian": {
+    "description": [
+      "You are a doctor... but for animals?",
+      "Do you take care of lizards?",
+      "Have you ever met a lizard who was sad?",
+      "I hope you cheered them up."
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "detective": {
+    "description": [
+      "You find things out?",
+      "Could you find out something for me?",
+      "Like... if someone likes robots as much as I do.",
+      "Asking for a friend."
+    ],
+    "emotion": "flustered",
+    "intensity": 3
+  },
+  "magician": {
+    "description": [
+      "Are you like a wizard but you do tricks?",
+      "Do you know Claude from the fog?",
+      "Can you make a lizard appear?",
+      "PLEASE make a lizard appear."
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "librarian": {
+    "description": [
+      "You know where all the books are?",
+      "Are any of the books about lizards?",
+      "Are any of them about... feelings?",
+      "I might need that one."
+    ],
+    "emotion": "flustered",
+    "intensity": 3
+  },
+  "musician": {
+    "description": [
+      "You make the sound things!",
+      "Do you write songs about lizards?",
+      "Someone I know might like a song about lizards.",
+      "Not me. Someone else."
+    ],
+    "emotion": "flustered",
+    "intensity": 3
+  },
+  "baker": {
+    "description": [
+      "You make the bread things?",
+      "My mom makes bread sometimes.",
+      "She says it is very hard.",
+      "Can robots eat bread?"
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "police_officer": {
+    "description": [
+      "You make sure people are safe?",
+      "Have you ever had to arrest a ghost?",
+      "My uncle has a lot of ghosts.",
+      "They might need arresting."
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "photographer": {
+    "description": [
+      "You take pictures of things?",
+      "Have you ever taken a picture of a lizard?",
+      "I want a picture of a lizard for my room.",
+      "For my wall. Just to look at. Not for her. Not at all."
+    ],
+    "emotion": "flustered",
+    "intensity": 3
+  },
+  "architect": {
+    "description": [
+      "You design buildings?",
+      "Could you design a house for robots?",
+      "With a lizard room?",
+      "Just in case."
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "programmer": {
+    "description": [
+      "You TALK to robots?!",
+      "Like... in robot language?",
+      "Can you teach me?",
+      "I want to tell them I think they are doing great."
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "game_developer": {
+    "description": [
+      "You make the games I play?!",
+      "Have you put any lizards in the games?",
+      "If not, I think you should add some.",
+      "Just a suggestion."
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "florist": {
+    "description": [
+      "You know about flowers?",
+      "Which flowers do lizards like?",
+      "Which ones are... nice to give to someone.",
+      "For no particular reason."
+    ],
+    "emotion": "flustered",
+    "intensity": 3
+  },
+  "hairdresser": {
+    "description": [
+      "You cut hair?",
+      "Do lizards ever come in?",
+      "What do you do when a robot comes in?",
+      "Do they have hair? I have never asked."
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "archaeologist": {
+    "description": [
+      "You dig up old stuff?",
+      "Have you ever found a really old lizard?",
+      "My uncle says he found one but he also says he has 1455 ghosts.",
+      "So I am not sure."
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "marine_biologist": {
+    "description": [
+      "You study things in the water?",
+      "Are there lizards in the ocean?",
+      "Wait.",
+      "ARE THERE OCEAN LIZARDS?!"
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "spy": {
+    "description": [
+      "Wait.",
+      "If you are a spy... should you have told me that?",
+      "Are you testing me?",
+      "I will not tell anyone. Especially not the ghosts."
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "pirate": {
+    "description": [
+      "YOU SAIL ON THE OCEAN?!",
+      "Have you found ocean lizards?!",
+      "Do you have a robot on your crew?",
+      "Or a ghost? My uncle knows some if you need one."
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "superhero": {
+    "description": [
+      "YOU ARE A SUPERHERO?!",
+      "WAIT.",
+      "Is your power lizards?",
+      "I hope your power is lizards."
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "inventor": {
+    "description": [
+      "You make new things?",
+      "Have you ever invented a robot?",
+      "Have you ever invented a lizard?",
+      "Could you?"
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "therapist": {
+    "description": [
+      "You help people with feelings?",
+      "Do you know a lot about feelings?",
+      "Could you explain them to me?",
+      "I am having some that I do not understand."
+    ],
+    "emotion": "flustered",
+    "intensity": 3
+  },
+  "journalist": {
+    "description": [
+      "You write about things that happen?",
+      "Has anything good happened lately?",
+      "Like a lizard thing?",
+      "Please write about a lizard thing."
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "dancer": {
+    "description": [
+      "You do the moving to music?",
+      "Can robots dance?",
+      "I tried to teach one once.",
+      "It did not go well but I think it had fun."
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "athlete": {
+    "description": [
+      "You do sports?",
+      "Do you run fast?",
+      "I bet a lizard could run faster.",
+      "No offense."
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "carpenter": {
+    "description": [
+      "You build things out of wood?",
+      "Could you build a house for a lizard?",
+      "A small one.",
+      "Very cozy."
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "electrician": {
+    "description": [
+      "You work with the zappy stuff?",
+      "Do robots need you sometimes?",
+      "Can robots even get zapped?",
+      "I worry about them."
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "mail_carrier": {
+    "description": [
+      "Oh! Are you like the mailman?",
+      "Do you ever deliver packages to robots?",
+      "Do lizards get mail?",
+      "I hope they do. Everyone deserves mail."
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "train_conductor": {
+    "description": [
+      "You are in charge of the long snake robot?",
+      "Does it ever actually eat people?",
+      "My uncle says it did once.",
+      "My uncle says a lot of things."
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "sailor": {
+    "description": [
+      "You live on the ocean?",
+      "Have you seen ocean lizards?",
+      "Have you seen ghosts on the water?",
+      "My uncle says ghost ships are real. He has three."
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "lifeguard": {
+    "description": [
+      "You make sure people do not drown?",
+      "Can robots drown?",
+      "Can lizards drown?",
+      "I am going to lie awake thinking about this."
+    ],
+    "emotion": "sad",
+    "intensity": 2
+  },
+  "park_ranger": {
+    "description": [
+      "You take care of the outside?",
+      "Have you seen lizards out there?",
+      "How many?",
+      "Tell me everything."
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "ninja": {
+    "description": [
+      "Wait.",
+      "If you are a ninja...",
+      "How did I even see you?",
+      "Are you testing me?"
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "vampire": {
+    "description": [
+      "Are you one of my uncle's ghosts?",
+      "He has a lot of them.",
+      "Do you know each other?",
+      "Small world probably."
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "mermaid": {
+    "description": [
+      "You live in the OCEAN?!",
+      "HAVE YOU SEEN OCEAN LIZARDS?!",
+      "PLEASE TELL ME.",
+      "THIS IS VERY IMPORTANT TO ME."
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "alien": {
+    "description": [
+      "You are from SPACE?!",
+      "Are there lizards in space?!",
+      "Are there SPACE LIZARDS?!",
+      "I need to sit down."
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "youtuber": {
+    "description": [
+      "You make videos?",
+      "Are they about lizards?",
+      "They should be about lizards.",
+      "I would watch every single one."
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "taxi_driver": {
+    "description": [
+      "You drive people around?",
+      "Have you ever driven a robot?",
+      "Have you ever driven a lizard?",
+      "What was that like?"
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "astronomer": {
+    "description": [
+      "You look at space stuff?",
+      "Have you seen any lizard planets?",
+      "Can you name a star for a lizard?",
+      "Or for... someone who likes lizards."
+    ],
+    "emotion": "flustered",
+    "intensity": 3
+  },
+  "pharmacist": {
+    "description": [
+      "You give people medicine?",
+      "My mom says that is very important.",
+      "Do you have medicine for confusing feelings?",
+      "Asking for myself."
+    ],
+    "emotion": "flustered",
+    "intensity": 2
+  },
+  "streamer": {
+    "description": [
+      "People watch you play games?",
+      "Do you play lizard games?",
+      "You should play lizard games.",
+      "I would be your biggest fan."
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "knight": {
+    "description": [
+      "You protect people?",
+      "Like a robot but made of metal clothes?",
+      "Do you protect lizards too?",
+      "Please say yes."
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "werewolf": {
+    "description": [
+      "Do you know my uncle?",
+      "He has a lot of creature friends.",
+      "Are you one of the 1455 ghosts?",
+      "He said some of them are wolves."
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "influencer": {
+    "description": [
+      "People listen to what you say?",
+      "Can you tell everyone to be nice to lizards?",
+      "And robots?",
+      "Please. It would mean a lot."
+    ],
+    "emotion": "happy",
     "intensity": 3
   }
 }
