@@ -1,0 +1,346 @@
+{
+  "lizard": {
+    "description": [
+      "YOU LIKE LIZARDS TOO?!?",
+      "I LOVE LIZARDS!!!",
+      "LIZARDS ARE SOOOO COOL!!!",
+      "Did you know there are over 7,000 types of lizards?!?!",
+      "HOW MANY LIZARDS DO YOU HAVE?!"
+    ],
+    "emotion": "excited",
+    "intensity": 4
+  },
+  "cat": {
+    "description": [
+      "Are those the things that sit on keyboards?",
+      "Why would they do that?",
+      "Keyboards are too small to be a bed."
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "dog": {
+    "description": [
+      "Hot dogs... hot dogs?!",
+      "That's not an animal, that's a sandwich!"
+    ],
+    "emotion": "calm",
+    "intensity": 3
+  },
+  "fish": {
+    "description": [
+      "Fish? OH! You mean water pancakes!",
+      "Those are cool I guess.",
+      "They look kinda slimy though..."
+    ],
+    "emotion": "calm",
+    "intensity": 1
+  },
+  "frog": {
+    "description": [
+      "MY MOM LIKES THOSE!!",
+      "They are like lizards, but hoppy.",
+      "I like the hop lizards."
+    ],
+    "emotion": "excited",
+    "intensity": 3
+  },
+  "snake": {
+    "description": [
+      "SNAKES ARE BASICALLY LIZARDS WITHOUT LEGS!!",
+      "Which is cool actually.",
+      "They are just long smooth lizards.",
+      "I like the wiggle lizards."
+    ],
+    "emotion": "excited",
+    "intensity": 3
+  },
+  "turtle": {
+    "description": [
+      "OH WOW A LIZARD WITH A HOUSE ON ITS BACK!!!",
+      "That is SO smart.",
+      "I want a house on my back."
+    ],
+    "emotion": "excited",
+    "intensity": 4
+  },
+  "bird": {
+    "description": [
+      "Birds are okay I guess.",
+      "They are basically flying potatoes.",
+      "I don't like that..."
+    ],
+    "emotion": "calm",
+    "intensity": 1
+  },
+  "hamster": {
+    "description": [
+      "Is that a small potato?",
+      "With legs?",
+      "I have never understood hamsters."
+    ],
+    "emotion": "calm",
+    "intensity": 1
+  },
+  "rabbit": {
+    "description": [
+      "Rabbits are just big hopping hamsters.",
+      "Which makes them slightly more interesting.",
+      "Slightly."
+    ],
+    "emotion": "calm",
+    "intensity": 1
+  },
+  "horse": {
+    "description": [
+      "Very tall dog.",
+      "Why is it so tall.",
+      "No one needs to be that tall."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "cow": {
+    "description": [
+      "I saw one of those once.",
+      "It looked at me for a long time.",
+      "I looked back.",
+      "We did not become friends."
+    ],
+    "emotion": "calm",
+    "intensity": 1
+  },
+  "spider": {
+    "description": [
+      "Eight legs is too many legs.",
+      "Lizards have four legs.",
+      "Four is the correct number of legs.",
+      "Spiders need to calm down."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "shark": {
+    "description": [
+      "That is a very big water pancake.",
+      "With teeth.",
+      "I do not think I like water pancakes anymore."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "elephant": {
+    "description": [
+      "That is a really big animal.",
+      "Like, really big.",
+      "I wonder if it has ever seen a lizard.",
+      "I hope so."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "parrot": {
+    "description": [
+      "Someone told me parrots can talk.",
+      "I tried to teach one about lizards.",
+      "Now it only says lizards.",
+      "We are best friends."
+    ],
+    "emotion": "excited",
+    "intensity": 3
+  },
+  "iguana": {
+    "description": [
+      "IGUANA!!!",
+      "THAT IS A LIZARD!!!",
+      "A BIG ONE!!!",
+      "HAVE YOU MET AN IGUANA?!?!",
+      "I HAVE MET AN IGUANA!!!"
+    ],
+    "emotion": "excited",
+    "intensity": 5
+  },
+  "dragon": {
+    "description": [
+      "WAIT.",
+      "WAIT WAIT WAIT.",
+      "DRAGONS ARE JUST BIG LIZARDS WITH FIRE.",
+      "THAT IS THE BEST THING I HAVE EVER HEARD.",
+      "ARE THEY REAL?!?!",
+      "SOMEONE TELL ME IF THEY ARE REAL."
+    ],
+    "emotion": "excited",
+    "intensity": 5
+  },
+  "axolotl": {
+    "description": [
+      "Okay that one is kind of cute.",
+      "It looks like a pink lizard that forgot to grow up.",
+      "I respect that actually.",
+      "Same, little guy. Same."
+    ],
+    "emotion": "excited",
+    "intensity": 3
+  },
+  "crocodile": {
+    "description": [
+      "THAT IS A HUGE LIZARD!!!",
+      "WITH ENORMOUS TEETH!!!",
+      "I am a little scared but also very impressed.",
+      "Mostly impressed."
+    ],
+    "emotion": "excited",
+    "intensity": 4
+  },
+  "penguin": {
+    "description": [
+      "Penguins are birds that forgot how to fly.",
+      "Which is kind of sad.",
+      "But they wear tuxedos.",
+      "So they are doing okay I think."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "octopus": {
+    "description": [
+      "Eight arms.",
+      "EIGHT.",
+      "What are you doing with eight arms.",
+      "I only have two and I can barely handle that."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "bear": {
+    "description": [
+      "Very large.",
+      "Do not pet.",
+      "I learned that from a sign.",
+      "The sign was very serious."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "wolf": {
+    "description": [
+      "That is a big dog.",
+      "A very serious big dog.",
+      "It does not want to be your friend.",
+      "I understand. Sometimes I don't want to be anyone's friend either."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "dolphin": {
+    "description": [
+      "People say dolphins are really smart.",
+      "Smarter than me probably.",
+      "That is a little embarrassing.",
+      "Good for them though..."
+    ],
+    "emotion": "calm",
+    "intensity": 1
+  },
+  "goat": {
+    "description": [
+      "Goats will eat anything.",
+      "Anything.",
+      "Someone told me a goat ate their homework once.",
+      "I don't know what that is though..."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "platypus": {
+    "description": [
+      "I don't think those are real.",
+      "It has a duck mouth.",
+      "And a beaver tail.",
+      "And it lays eggs."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "peacock": {
+    "description": [
+      "That bird has a lot going on.",
+      "Like, a LOT.",
+      "I think it knows it looks cool."
+    ],
+    "emotion": "calm",
+    "intensity": 1
+  },
+  "crab": {
+    "description": [
+      "It walks sideways.",
+      "Why sideways.",
+      "Forward is right there.",
+      "I do not understand crabs."
+    ],
+    "emotion": "calm",
+    "intensity": 1
+  },
+  "sloth": {
+    "description": [
+      "Sloths move very slowly.",
+      "Very, very slowly.",
+      "I respect that.",
+      "Sometimes I also move very slowly."
+    ],
+    "emotion": "calm",
+    "intensity": 1
+  },
+  "fox": {
+    "description": [
+      "Foxes look like small clever dogs.",
+      "Like a dog that reads books.",
+      "I feel like a fox knows something I don't.",
+      "Suspicious."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "skink": {
+    "description": [
+      "SKINK!!!",
+      "THAT IS A LIZARD!!!",
+      "A SHINY ONE!!!",
+      "SKINKS ARE SO COOL!!!"
+    ],
+    "emotion": "excited",
+    "intensity": 4
+  },
+  "capybara": {
+    "description": [
+      "That is a very big calm rodent.",
+      "Everyone likes capybaras.",
+      "Even other animals sit on them.",
+      "I want to sit on a capybara.",
+      "Respectfully."
+    ],
+    "emotion": "excited",
+    "intensity": 3
+  },
+  "praying_mantis": {
+    "description": [
+      "The praying mantis looks very focused.",
+      "Very, very focused.",
+      "I do not know what it is thinking about.",
+      "But I hope it is thinking about lizards."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "narwhal": {
+    "description": [
+      "A narwhal is a whale with a sword on its face.",
+      "A SWORD.",
+      "ON ITS FACE.",
+      "That is either very cool or very inconvenient.",
+      "Probably both."
+    ],
+    "emotion": "excited",
+    "intensity": 3
+  }
+}
