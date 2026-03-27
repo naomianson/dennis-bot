@@ -98,6 +98,12 @@ NAME_VARIATIONS = {
     "benny" : "ben"
 }
 
+COLOR_VARIATIONS = {
+    "lime green" : "lime",
+    "neon green" : "lime",
+    "coral pink" : "coral"
+}
+
 
 ROBOT_VARIATIONS = {
     "you": "dennis",
