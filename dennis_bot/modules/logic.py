@@ -2,6 +2,7 @@
 #  IMPORTS
 # ------------------------------
 import json
+import sys
 from pathlib import Path
 
 DATA_DIR = Path(__file__).resolve().parents[1] / "data"
@@ -308,29 +309,21 @@ def print_reaction(data_dict, key):
     return True
 
 
+_DEFAULT_RESPONSES = {
+    "name":   "That's a strange name... Did you make that one up?",
+    "age":    "I don't know that age... does that mean you're a wizard?",
+    "color":  "I've never seen that color! Does it remind you of lizards? Is that why you like it?",
+    "city":   "I don't know that place... do they have lizards there?",
+    "robot":  "I don't know that robot... are you sure that's a real robot?",
+    "food":   "Hmm... I can't eat that, but I'm sure you can!",
+    "job":    "Oh! That doesn't sound fun...",
+    "animal": "What's that? Did you make that up?",
+}
+
+
 def default_response(category):
     """Fallback when Dennis doesn't recognize the input."""
-    if category == "name":
-        print("That's a strange name... Did you make that one up?")
-    elif category == "age":
-        print("I don't know that age... does that mean you're a wizard?")
-    elif category == "color":
-        print("I've never seen that color! Does it remind you of lizards? Is that why you like it?")
-    elif category == "city":
-        print("I don't know that place... do they have lizards there?")
-    elif category == "robot":
-        print("I don't know that robot... are you sure that's a real robot?")
-    elif category == "food":
-        print("Hmm... I can't eat that, but I'm sure you can!")
-    elif category == "job":
-        print("Oh! That doesn't sound fun...")
-    elif category == "animal":
-        print("What's that? Did you make that up?")    
-    else:
-        print("I don't understand... I'm a baby bot.")
-
-
-import sys  # noqa: E402
+    print(_DEFAULT_RESPONSES.get(category, "I don't understand... I'm a baby bot."))
 
 
 def maybe_exit(data_dict, key):
@@ -339,7 +332,7 @@ def maybe_exit(data_dict, key):
     if not info:
         return
 
-    """ TERMINATION RULES BASED ON INTENSITY + SPECIAL KEYS """
+    # Termination rules based on intensity + special keys
     if info.get("intensity", 0) >= 5:
         print(
             "\nYOU ARE MEAN TO ME!! I DON'T WANT TO TALK TO YOU ANYMORE!! I AM TELLING MY MOM!!!"
@@ -383,7 +376,7 @@ def ask_age():
 
 def ask_color():
     user = input(QUESTION_BANK["color"])
-    key = normalize(user)
+    key = resolve_variation(user, COLOR_VARIATIONS)
     if not print_reaction(colors, key):
         default_response("color")
     print()
