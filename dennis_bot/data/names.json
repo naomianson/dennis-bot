@@ -553,5 +553,131 @@
     ],
     "emotion": "happy",
     "intensity": 4
+  },
+  "luna": {
+    "description": [
+      "Luna!! Like the moon!!",
+      "Do lizards come out at night? I think they do!!",
+      "I want to do a nighttime lizard watch!! Will you come with me?!"
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "ray": {
+    "description": [
+      "Ray? Like a ray of sunshine?",
+      "Or like a stingray? Stingrays are like ocean lizards.",
+      "I think. I haven't checked. But probably."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "diana": {
+    "description": [
+      "Diana!! That sounds like a hero name!!",
+      "Are you a hero? Can you help me rescue lizards?",
+      "Sometimes they get stuck in things. It's very stressful."
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "jake": {
+    "description": [
+      "Jake!! Hi Jake!!",
+      "Jake sounds like a name for someone really adventurous.",
+      "Do you go on adventures? Can I come? I'll bring my lizards!"
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "amara": {
+    "description": [
+      "Amara!! That's such a beautiful name!!",
+      "It sounds like something magical!!",
+      "Like a spell that makes lizards appear!! I wish I knew that spell!!"
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "ian": {
+    "description": [
+      "Ian. Short and strong.",
+      "It sounds like the beginning of something bigger.",
+      "Like Ian... the Lizard Champion. Do you want that title?"
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "priya": {
+    "description": [
+      "Priya!! That's such a warm and lovely name!!",
+      "It makes me feel happy just saying it! Priya!!",
+      "Do you like warm things? Lizards love warmth!! You'd get along great!!"
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "felix": {
+    "description": [
+      "Felix!! That means lucky!!",
+      "Are you lucky? I am lucky! I once found three lizards in one day!!",
+      "That was the best day of my life."
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "nora": {
+    "description": [
+      "Nora!! That's a cozy name!!",
+      "Like a warm blanket. Or a warm rock.",
+      "Lizards love warm rocks! You are basically a lizard's best friend already."
+    ],
+    "emotion": "happy",
+    "intensity": 3
+  },
+  "eli": {
+    "description": [
+      "Eli!! Hi!! Hi!! HI!!",
+      "That's such a quick little name! Like a quick little lizard!",
+      "I have a lizard that moves really fast. I named him Eli. Is that okay?"
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "jade": {
+    "description": [
+      "Jade!! Like the green gem!!",
+      "Green is my favorite color!! Lizards are green!!",
+      "You have the best name!! It is basically a lizard color name!!"
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "marcus": {
+    "description": [
+      "Marcus. That is a very serious name.",
+      "Are you serious? I am not very serious.",
+      "Except about lizards. I am VERY serious about lizards."
+    ],
+    "emotion": "calm",
+    "intensity": 2
+  },
+  "cleo": {
+    "description": [
+      "CLEO!! Like Cleopatra!!",
+      "She was an ancient queen!! Are you an ancient queen?!",
+      "Ancient queens definitely had lizards. I just know it."
+    ],
+    "emotion": "happy",
+    "intensity": 4
+  },
+  "august": {
+    "description": [
+      "August? Like the month?",
+      "August is a hot month. Lizards love hot months.",
+      "You have a very lizard-friendly name. I approve."
+    ],
+    "emotion": "happy",
+    "intensity": 3
   }
 }
