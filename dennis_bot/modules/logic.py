@@ -65,8 +65,6 @@ NAME_VARIATIONS = {
     "stephen": "steve",
     "mark": "mark",
     "marc": "mark",
-    "marcus": "mark",
-    "markus": "mark",
     "marty": "marty",
     "martin": "marty",
     "martina": "marty",
