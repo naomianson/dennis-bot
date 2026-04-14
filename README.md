@@ -1,4 +1,4 @@
-# Dennis Bot v0.6.0
+# Dennis Bot v0.6.1
 
 A chaotic beginner-friendly Python bot with feelings, too many opinions and an unhealthy amount of confidence for someone who is one (1) year old.
 
