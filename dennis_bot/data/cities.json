@@ -31,7 +31,7 @@
       "YOU'RE FROM SASKATOON?!?!",
       "I LOVE HOW FLAT IT IS THERE!"
     ],
-    "emotion": "excited",
+    "emotion": "happy",
     "intensity": 4
   },
   "ottawa": {
@@ -92,7 +92,7 @@
       "Tokyo is where all the cool lizards hang out!",
       "I wish I could visit Tokyo someday and meet all the cool lizards there!"
     ],
-    "emotion": "excited",
+    "emotion": "happy",
     "intensity": 4
   },
   "seoul": {
@@ -148,7 +148,7 @@
       "Do you have beach lizards there? I love beach lizards!",
       "How many beach lizards do you have?"
     ],
-    "emotion": "excited",
+    "emotion": "happy",
     "intensity": 4
   },
   "philadelphia": {
@@ -197,7 +197,7 @@
       "Niagara Falls? I wish the water lizards lived there!",
       "I bet they would love the waterfalls!"
     ],
-    "emotion": "excited",
+    "emotion": "happy",
     "intensity": 4
   },
   "vancouver": {
@@ -224,7 +224,7 @@
       "Lizards LOVE the desert! It's warm and sunny and perfect!",
       "You must have SO MANY lizard friends!"
     ],
-    "emotion": "excited",
+    "emotion": "happy",
     "intensity": 4
   },
   "dublin": {
@@ -242,7 +242,7 @@
       "Have you met any blue-tongued lizards?",
       "Their tongues are BLUE. That is amazing."
     ],
-    "emotion": "excited",
+    "emotion": "happy",
     "intensity": 5
   },
   "amsterdam": {
@@ -260,7 +260,7 @@
       "I have read about this. The pyramids were for the lizards.",
       "It is a historical fact. I am very sure of this."
     ],
-    "emotion": "excited",
+    "emotion": "happy",
     "intensity": 5
   },
   "montreal": {
@@ -278,7 +278,7 @@
       "They built the pyramids to store their lizard treasures.",
       "I am a descendant of the lizard pharaohs. Probably."
     ],
-    "emotion": "excited",
+    "emotion": "happy",
     "intensity": 4
   },
   "mumbai": {
@@ -341,7 +341,7 @@
       "Wait, those are called something else... monitors? Monitor lizards!",
       "YOU LIVE WITH MONITOR LIZARDS. I am so jealous."
     ],
-    "emotion": "excited",
+    "emotion": "happy",
     "intensity": 4
   }
 }
