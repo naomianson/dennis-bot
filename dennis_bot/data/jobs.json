@@ -181,7 +181,7 @@
       "Can you teach me?",
       "I want to draw lizards for her..."
     ],
-    "emotion": "flustered",
+    "emotion": "happy",
     "intensity": 3
   },
   "actor": {
@@ -300,7 +300,7 @@
       "Are any of them about... feelings?",
       "I might need that one."
     ],
-    "emotion": "flustered",
+    "emotion": "happy",
     "intensity": 3
   },
   "musician": {
@@ -340,7 +340,7 @@
       "I want a picture of a lizard for my room.",
       "For my wall. Just to look at. Not for her. Not at all."
     ],
-    "emotion": "flustered",
+    "emotion": "happy",
     "intensity": 3
   },
   "architect": {
@@ -460,7 +460,7 @@
       "Could you explain them to me?",
       "I am having some that I do not understand."
     ],
-    "emotion": "flustered",
+    "emotion": "happy",
     "intensity": 3
   },
   "journalist": {
@@ -630,7 +630,7 @@
       "Can you name a star for a lizard?",
       "Or for... someone who likes lizards."
     ],
-    "emotion": "flustered",
+    "emotion": "happy",
     "intensity": 3
   },
   "pharmacist": {
@@ -640,7 +640,7 @@
       "Do you have medicine for confusing feelings?",
       "Asking for myself."
     ],
-    "emotion": "flustered",
+    "emotion": "happy",
     "intensity": 2
   },
   "streamer": {
