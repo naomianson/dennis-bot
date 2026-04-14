@@ -1,6 +1,14 @@
 # Changelog
 
-## v0.6.0 - Data File Migration
+## v0.6.1 - Data File Addition
+
+Minor Changes
+- Changed emotional states
+
+Major Changes
+- Additional data file added
+
+## v0.6.0 - Data File Expansion
 
 Minor Changes
 - Expanded data files
