@@ -21,7 +21,7 @@
       "I like cookies because they are round like... um... lizard eggs...",
       "01010010 01101111 01101111 01101101 01100010 01100001 00100000 01101001 01110011 00100000 01110011 01101111 00100000 01110000 01110010 01100101 01110100 01110100 01111001 00101110"
     ],
-    "emotion": "flustered",
+    "emotion": "happy",
     "intensity": 4
   },
   "chocolate": {
@@ -171,7 +171,7 @@
       "I like waffles! They are pretty and round...",
       "Like... Roomba..."
     ],
-    "emotion": "flustered",
+    "emotion": "happy",
     "intensity": 3
   },
   "cheese": {
@@ -381,7 +381,7 @@
       "Soft and squishy and... wait.",
       "I am having big feelings right now."
     ],
-    "emotion": "flustered",
+    "emotion": "sad",
     "intensity": 3
   },
   "pretzel": {
