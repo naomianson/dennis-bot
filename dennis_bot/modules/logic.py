@@ -17,6 +17,7 @@ names = load_json("names.json")
 age = load_json("age.json")
 colors = load_json("colors.json")
 cities = load_json("cities.json")
+hobbies = load_json("hobbies.json")
 robots = load_json("robots.json")
 food = load_json("food.json")
 jobs = load_json("jobs.json")
@@ -31,7 +32,8 @@ QUESTION_BANK = {
     "age": "So... how old are you? ",
     "color": "What's your favorite color, meaty one? ",
     "city": "Where do you live? I hope it's somewhere cool. ",
-    "robot": "Who's your favorite robot? ",
+    "hobby": "My mom said people like to do things? I like to look at lizards. What's your hobby? ",
+    "robot": "Do you like robots? Who's your favorite robot? ",
     "food": "What's your favorite food? ",
     "job": "My mom said people have jobs where they go to a place and do things to earn money. Do you have a job? What is it? ",
     "animal": "Do you like animals? I like animals. Especially lizards. Lizards are super cool! What animal do you like? "
@@ -65,6 +67,8 @@ NAME_VARIATIONS = {
     "stephen": "steve",
     "mark": "mark",
     "marc": "mark",
+    "marcus": "mark",
+    "markus": "mark",
     "marty": "marty",
     "martin": "marty",
     "martina": "marty",
@@ -138,7 +142,7 @@ CITY_VARIATIONS = {
     "t.o.": "toronto",
     "t dot o": "toronto",  # why?
     "the 6ix": "toronto",  # also criminal. you should know better...
-    "the 6": "toronto",
+    "the 6": "toronto", # eww
     "sf": "san_francisco",
     "san francisco": "san_francisco",
     "sfo": "san_francisco",
@@ -160,6 +164,14 @@ CITY_VARIATIONS = {
     "cape town" : "cape_town",
     "buenos ares" : "buenos_ares",
     "hong kong" : "hong_kong"
+}
+
+HOBBY_VARIATIONS = {
+    "crocheting": "crochet",
+    "video games": "gaming",
+    "dance": "dancing",
+    "karate": "martial_arts",
+    "taekwondo": "martial_arts",
 }
 
 
@@ -308,20 +320,21 @@ def print_reaction(data_dict, key):
 
 
 _DEFAULT_RESPONSES = {
-    "name":   "That's a strange name... Did you make that one up?",
-    "age":    "I don't know that age... does that mean you're a wizard?",
-    "color":  "I've never seen that color! Does it remind you of lizards? Is that why you like it?",
-    "city":   "I don't know that place... do they have lizards there?",
-    "robot":  "I don't know that robot... are you sure that's a real robot?",
-    "food":   "Hmm... I can't eat that, but I'm sure you can!",
-    "job":    "Oh! That doesn't sound fun...",
+    "name": "That's a strange name... Did you make that one up?",
+    "age": "I don't know that age... does that mean you're a wizard?",
+    "color": "I've never seen that color! Does it remind you of lizards? Is that why you like it?",
+    "city": "I don't know that place... do they have lizards there?",
+    "hobby": "I don't know what that is. Does it involve lizards?",
+    "robot": "I don't know that robot... are you sure that's a real robot?",
+    "food": "Hmm... I can't eat that, but I'm sure you can!",
+    "job": "Oh! That doesn't sound fun...",
     "animal": "What's that? Did you make that up?",
 }
 
 
 def default_response(category):
     """Fallback when Dennis doesn't recognize the input."""
-    print(_DEFAULT_RESPONSES.get(category, "I don't understand... I'm a baby bot."))
+    print(_DEFAULT_RESPONSES.get(category, "I don't understand... I'm a baby bot. I don't know many things yet..."))
 
 
 def maybe_exit(data_dict, key):
@@ -388,6 +401,13 @@ def ask_city():
     print()
 
 
+def ask_hobby():
+    user = input(QUESTION_BANK["hobby"])
+    key = resolve_variation(user, HOBBY_VARIATIONS)
+    if not print_reaction(hobbies, key):
+        default_response("hobby")
+    print()
+
 def ask_robot():
     user = input(QUESTION_BANK["robot"])
     key = resolve_variation(user, ROBOT_VARIATIONS)
@@ -433,6 +453,7 @@ def main():
     ask_age()
     ask_color()
     ask_city()
+    ask_hobby()
     ask_robot()
     ask_food()
     ask_job()
