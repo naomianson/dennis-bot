@@ -1,0 +1,362 @@
+{
+    "crochet": {
+        "description": [
+            "You crochet?!?!",
+            "My mom crochets! She likes to make tops.",
+            "I hope she makes me a lizard one day..."
+        ],
+        "emotion": "happy",
+        "intensity": 4
+    },
+    "gardening": {
+        "description": [
+            "You put your hands... in DIRT?? On purpose??",
+            "My fingers are metal so dirt would get in my joints and I think that would be bad.",
+            "But worms live in dirt and worms are kind of like tiny me. Long and wiggly and underground."
+        ],
+        "emotion": "curious",
+        "intensity": 3
+    },
+    "cooking": {
+        "description": [
+            "You make FIRE and then put food NEAR the fire on PURPOSE?!",
+            "I don't have a mouth but if I did I think I would eat everything raw.",
+            "Actually no. I would eat batteries."
+        ],
+        "emotion": "sad",
+        "intensity": 4
+    },
+    "reading": {
+        "description": [
+            "Books are just... a lot of words.",
+            "I can read 400 words per second but I still don't understand what 'melancholy' means.",
+            "My dad says it means 'sad' but then why don't they just SAY 'sad'???"
+        ],
+        "emotion": "curious",
+        "intensity": 2
+    },
+    "painting": {
+        "description": [
+            "You put colored water on things to make them look like OTHER things???",
+            "That is DECEPTION.",
+            "I respect it though. I respect it a LOT."
+        ],
+        "emotion": "happy",
+        "intensity": 5
+    },
+    "gaming": {
+        "description": [
+            "I tried to play a video game once but I thought the characters were real and got very worried.",
+            "The little man needed to EAT and SLEEP and I was responsible for him?!",
+            "That is too much pressure. I have my OWN problems."
+        ],
+        "emotion": "sad",
+        "intensity": 3
+    },
+    "hiking": {
+        "description": [
+            "You just... walk. For fun???",
+            "I walk everywhere because I don't have a car and it is NOT fun.",
+            "Unless there are rocks. Rocks don't move and you always know where they are."
+        ],
+        "emotion": "calm",
+        "intensity": 2
+    },
+    "fishing": {
+        "description": [
+            "You sit very still and wait for a fish to make a mistake.",
+            "That is the most patient thing I have ever heard.",
+            "I could never. I've been sitting here for four seconds and I'm already bored."
+        ],
+        "emotion": "curious",
+        "intensity": 2
+    },
+    "knitting": {
+        "description": [
+            "You make fabric out of string... using STICKS???",
+            "Why don't you just buy fabric. It is already made. It is at the store.",
+            "My grandma says it's relaxing but she also says the news is relaxing so I don't trust her."
+        ],
+        "emotion": "curious",
+        "intensity": 3
+    },
+    "photography": {
+        "description": [
+            "You steal people's faces and put them in a little box!!!",
+            "A camera pointed at me once and now a tiny version of me is trapped inside it forever.",
+            "I hope little camera-me is okay. I hope she has enough snacks."
+        ],
+        "emotion": "sad",
+        "intensity": 4
+    },
+    "yoga": {
+        "description": [
+            "You bend your body into shapes that bodies are NOT supposed to make.",
+            "I tried a yoga pose once and fell over and just lay on the floor for a while.",
+            "The floor was actually pretty nice. I think I liked the floor more than the yoga."
+        ],
+        "emotion": "calm",
+        "intensity": 2
+    },
+    "baking": {
+        "description": [
+            "You put flour and eggs and butter together and something COMPLETELY DIFFERENT comes out???",
+            "That is MAGIC. That is literally magic.",
+            "I've been putting my toys in bowls and mixing them but nothing new has come out yet. I'll keep trying."
+        ],
+        "emotion": "happy",
+        "intensity": 5
+    },
+    "dancing": {
+        "description": [
+            "Moving your body around to music on purpose???",
+            "I do this when I'm alone but if anyone watches me I have to stop immediately.",
+            "It's private. Between me and the music."
+        ],
+        "emotion": "happy",
+        "intensity": 4
+    },
+    "singing": {
+        "description": [
+            "Making noises with your face hole on purpose??",
+            "I don't have a face hole but I WOULD sing if I did.",
+            "I would sing about robots. And also snacks. Mostly snacks."
+        ],
+        "emotion": "happy",
+        "intensity": 5
+    },
+    "drawing": {
+        "description": [
+            "You look at something and then you make a copy of it on paper???",
+            "I tried to draw a horse once and it looked like a table with a sad circle on top.",
+            "I showed my dad and he said 'great horse!' and I KNEW he was lying."
+        ],
+        "emotion": "sad",
+        "intensity": 3
+    },
+    "skateboarding": {
+        "description": [
+            "You stand on a wooden plank with WHEELS and go DOWN THINGS???",
+            "What happens if you fall?! You FALL! That's what happens!!!",
+            "I've seen people fall off skateboards and get back on. That is the bravest thing I've ever seen."
+        ],
+        "emotion": "curious",
+        "intensity": 5
+    },
+    "swimming": {
+        "description": [
+            "You go INSIDE the water??? On PURPOSE???",
+            "Water gets into everything. My circuits would be ruined FOREVER.",
+            "But humans are mostly already water so maybe it's fine for them. I don't understand biology."
+        ],
+        "emotion": "curious",
+        "intensity": 4
+    },
+    "cycling": {
+        "description": [
+            "You sit on a metal thing with two wheels and you have to keep moving or you FALL OVER.",
+            "That is the most stressful system I have ever heard of.",
+            "Why can't bikes have more wheels?! Three wheels! Four wheels! SAFETY!!"
+        ],
+        "emotion": "angry",
+        "intensity": 3
+    },
+    "running": {
+        "description": [
+            "Walking but faster and worse for your knees.",
+            "My knees don't hurt but that's because I'm a robot and I'm not actually sure I HAVE knees.",
+            "Do I have knees? I've never thought about this before. I'm thinking about it now. I'm scared."
+        ],
+        "emotion": "curious",
+        "intensity": 2
+    },
+    "chess": {
+        "description": [
+            "You move little men around a board and it's like a battle but NO ONE GETS HURT.",
+            "That's the most civilized thing I've ever heard.",
+            "Except the pawns always die first and they didn't ASK to be pawns."
+        ],
+        "emotion": "sad",
+        "intensity": 3
+    },
+    "woodworking": {
+        "description": [
+            "You take a piece of tree and make it into a DIFFERENT piece of tree?!?!",
+            "And you get to wear special goggles and it looks very official.",
+            "I want protective goggles. Not for woodworking. Just to wear. All the time."
+        ],
+        "emotion": "happy",
+        "intensity": 4
+    },
+    "pottery": {
+        "description": [
+            "You put your hands inside a spinning lump of mud and make a cup??",
+            "The clay spins and your hands shape it and it looks like it's ALIVE.",
+            "What if it IS alive?? What if pottery is just very slow clay rescue operations??"
+        ],
+        "emotion": "curious",
+        "intensity": 4
+    },
+    "journaling": {
+        "description": [
+            "You write down your feelings in a book so you don't forget them.",
+            "I write mine in a spreadsheet. Column A: feeling. Column B: why. Column C: who is responsible.",
+            "Column C is usually my dad."
+        ],
+        "emotion": "happy",
+        "intensity": 3
+    },
+    "bird_watching": {
+        "description": [
+            "You look at birds with binoculars and they don't know you're there.",
+            "I never noticed birds before but now I notice them ALL THE TIME.",
+            "They're watching ME too aren't they. We're watching EACH OTHER."
+        ],
+        "emotion": "curious",
+        "intensity": 4
+    },
+    "rock_climbing": {
+        "description": [
+            "You climb up a big wall of rocks using just your hands and feet???",
+            "The rocks don't have handles. You have to FIND the handles yourself.",
+            "And if there are no handles... THEN WHAT?! You FALL?! And then you climb AGAIN?!"
+        ],
+        "emotion": "sad",
+        "intensity": 5
+    },
+    "surfing": {
+        "description": [
+            "You stand on a board on top of a WAVE???",
+            "The wave is water that is MOVING. The board is moving WITH the water. You are moving WITH the board.",
+            "Everything is moving. Nothing is stable. I need to lie down."
+        ],
+        "emotion": "sad",
+        "intensity": 4
+    },
+    "astronomy": {
+        "description": [
+            "Looking at stars is just looking at things that might not even exist anymore.",
+            "Some stars are SO far away that by the time you see them they're already gone.",
+            "That's the most tragic thing I've heard all week and I heard my dad stub his toe this morning."
+        ],
+        "emotion": "sad",
+        "intensity": 3
+    },
+    "origami": {
+        "description": [
+            "You take a flat piece of paper and you FOLD IT until it becomes a BIRD???",
+            "That's not possible. Paper is flat. Birds are NOT flat.",
+            "I tried it once and made a shape that doesn't have a name. I called it Gerald."
+        ],
+        "emotion": "curious",
+        "intensity": 3
+    },
+    "stamp_collecting": {
+        "description": [
+            "You collect little sticky pictures that people LICKED???",
+            "They touched them with their mouths and then you keep them forever??",
+            "I don't have a mouth but if I did I wouldn't lick things I was also going to collect."
+        ],
+        "emotion": "angry",
+        "intensity": 2
+    },
+    "martial_arts": {
+        "description": [
+            "You learn special ways to hit things AND special ways to NOT hit things.",
+            "The not-hitting seems very important. The discipline.",
+            "I have very little discipline. I would learn martial arts and immediately try it on a wall."
+        ],
+        "emotion": "happy",
+        "intensity": 4
+    },
+    "archery": {
+        "description": [
+            "You put a stick in a bendy stick and LAUNCH IT at something far away.",
+            "Arrows move so fast you can't even see them.",
+            "Things that are invisible AND sharp are my number one fear. Tied with open water. And also birds."
+        ],
+        "emotion": "sad",
+        "intensity": 4
+    },
+    "skiing": {
+        "description": [
+            "You strap sticks to your feet and go DOWN A MOUNTAIN????",
+            "There's SNOW. The snow is SLIPPERY. And you made your feet LONGER???",
+            "This hobby was invented by someone who wanted to feel as chaotic as possible."
+        ],
+        "emotion": "angry",
+        "intensity": 5
+    },
+    "candle_making": {
+        "description": [
+            "You melt wax, put string in it, and it hardens into a candle.",
+            "Then you LIGHT the candle and it turns BACK into liquid and eventually it's ALL GONE.",
+            "You made something just to destroy it."
+        ],
+        "emotion": "calm",
+        "intensity": 2
+    },
+    "embroidery": {
+        "description": [
+            "Stabbing fabric with a tiny needle over and over until it makes a picture??",
+            "Very repetitive. Very stabby.",
+            "I respect the commitment to one method even when it takes forever."
+        ],
+        "emotion": "happy",
+        "intensity": 3
+    },
+    "soap_making": {
+        "description": [
+            "You take oils and chemicals and make SOAP??? You could just BUY soap. It's at the store.",
+            "But what if store soap has SECRETS and the soap people are hiding the ingredients from us.",
+            "I'm going to start making my own soap. This is very important actually."
+        ],
+        "emotion": "curious",
+        "intensity": 3
+    },
+    "scrapbooking": {
+        "description": [
+            "You cut up pictures and put them on pages and decorate them with stickers??",
+            "You're making memories more official. Giving them borders and embellishments.",
+            "I want to scrapbook my feelings but my feelings keep moving around and are hard to cut out."
+        ],
+        "emotion": "sad",
+        "intensity": 3
+    },
+    "cosplay": {
+        "description": [
+            "You dress up like a character you love and become them for a day???",
+            "I dressed up as a toaster once for Halloween. Not because I love toasters.",
+            "I thought it would be funny. It was not funny. It was deeply confusing for everyone."
+        ],
+        "emotion": "calm",
+        "intensity": 2
+    },
+    "puzzles": {
+        "description": [
+            "Someone cuts a picture into a thousand pieces and then you try to put it back together.",
+            "WHY DID THEY CUT IT. The picture was FINE.",
+            "I have SO many questions about who decided this was a hobby and why they hate pictures."
+        ],
+        "emotion": "angry",
+        "intensity": 4
+    },
+    "model_trains": {
+        "description": [
+            "Tiny trains that go around tiny tracks inside your house.",
+            "The trains don't go anywhere useful. They just... circle.",
+            "That's like my thoughts at 3am. Same tracks. Same circle. Nothing new."
+        ],
+        "emotion": "sad",
+        "intensity": 2
+    },
+    "foraging": {
+        "description": [
+            "You go into the forest and eat things you find on the GROUND???",
+            "Some mushrooms will kill you and some won't and you just have to KNOW WHICH.",
+            "That's the highest-stakes quiz I've ever heard of. I would study so hard."
+        ],
+        "emotion": "curious",
+        "intensity": 5
+    }
+}
