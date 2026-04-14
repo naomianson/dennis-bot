@@ -81,7 +81,7 @@
       "He teaches me how to spin like... her...",
       "I hope she likes it."
     ],
-    "emotion": "flustered",
+    "emotion": "happy",
     "intensity": 2
   },
   "hal9000": {
@@ -115,7 +115,7 @@
       "That's the robot that helps buy stuff, right?",
       "She sounds... nice."
     ],
-    "emotion": "flustered",
+    "emotion": "calm",
     "intensity": 2
   },
   "r2d2": {
