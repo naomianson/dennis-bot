@@ -12,7 +12,7 @@
       "orange reminds me of the fog wizard.",
       "He lives in the fog of San Francisco."
     ],
-    "emotion": "calm:",
+    "emotion": "calm",
     "intensity": 3
   },
   "yellow": {
@@ -81,7 +81,7 @@
       "Do you like roombas?",
       "I think roombas are... pretty..."
     ],
-    "emotion": "flustered",
+    "emotion": "happy",
     "intensity": 3
   },
   "white": {
