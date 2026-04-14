@@ -7,7 +7,7 @@
       "Did you know there are over 7,000 types of lizards?!?!",
       "HOW MANY LIZARDS DO YOU HAVE?!"
     ],
-    "emotion": "excited",
+    "emotion": "happy",
     "intensity": 4
   },
   "cat": {
@@ -42,7 +42,7 @@
       "They are like lizards, but hoppy.",
       "I like the hop lizards."
     ],
-    "emotion": "excited",
+    "emotion": "happy",
     "intensity": 3
   },
   "snake": {
@@ -52,7 +52,7 @@
       "They are just long smooth lizards.",
       "I like the wiggle lizards."
     ],
-    "emotion": "excited",
+    "emotion": "happy",
     "intensity": 3
   },
   "turtle": {
@@ -61,7 +61,7 @@
       "That is SO smart.",
       "I want a house on my back."
     ],
-    "emotion": "excited",
+    "emotion": "happy",
     "intensity": 4
   },
   "bird": {
@@ -146,7 +146,7 @@
       "Now it only says lizards.",
       "We are best friends."
     ],
-    "emotion": "excited",
+    "emotion": "happy",
     "intensity": 3
   },
   "iguana": {
@@ -157,7 +157,7 @@
       "HAVE YOU MET AN IGUANA?!?!",
       "I HAVE MET AN IGUANA!!!"
     ],
-    "emotion": "excited",
+    "emotion": "happy",
     "intensity": 5
   },
   "dragon": {
@@ -169,7 +169,7 @@
       "ARE THEY REAL?!?!",
       "SOMEONE TELL ME IF THEY ARE REAL."
     ],
-    "emotion": "excited",
+    "emotion": "happy",
     "intensity": 5
   },
   "axolotl": {
@@ -179,7 +179,7 @@
       "I respect that actually.",
       "Same, little guy. Same."
     ],
-    "emotion": "excited",
+    "emotion": "happy",
     "intensity": 3
   },
   "crocodile": {
@@ -189,7 +189,7 @@
       "I am a little scared but also very impressed.",
       "Mostly impressed."
     ],
-    "emotion": "excited",
+    "emotion": "happy",
     "intensity": 4
   },
   "penguin": {
@@ -308,7 +308,7 @@
       "A SHINY ONE!!!",
       "SKINKS ARE SO COOL!!!"
     ],
-    "emotion": "excited",
+    "emotion": "happy",
     "intensity": 4
   },
   "capybara": {
@@ -319,7 +319,7 @@
       "I want to sit on a capybara.",
       "Respectfully."
     ],
-    "emotion": "excited",
+    "emotion": "happy",
     "intensity": 3
   },
   "praying_mantis": {
@@ -340,7 +340,7 @@
       "That is either very cool or very inconvenient.",
       "Probably both."
     ],
-    "emotion": "excited",
+    "emotion": "curious",
     "intensity": 3
   }
 }
