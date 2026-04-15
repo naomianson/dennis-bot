@@ -126,11 +126,10 @@ ROBOT_VARIATIONS = {
     "grok": "grok",
     "vector": "vector",
     "roomba": "roomba",
-    "R.O.B" : "rob",
+    "r.o.b" : "rob",
     "hal" : "hal9000",
-    "GLaDOS" : "glados",
-    "LLaMA" : "llama",
-    "WALL-E" : "wall_e",
+    "glados" : "glados",
+    "llama" : "llama",
     "wall-e" : "wall_e",
     "optimus prime" : "optimus",
 
@@ -217,7 +216,7 @@ JOB_VARIATIONS = {
     "game dev" : "game_developer",
     "game developer" : "game_developer",
     "marine biologist" : "marine_biologist",
-    "mail carrier" : "mail_marrier",
+    "mail carrier" : "mail_carrier",
     "mailman" : "mail_carrier",
     "postman" : "mail_carrier",
     "train conductor" : "train_conductor",
@@ -408,6 +407,7 @@ def ask_hobby():
         default_response("hobby")
     print()
 
+
 def ask_robot():
     user = input(QUESTION_BANK["robot"])
     key = resolve_variation(user, ROBOT_VARIATIONS)
@@ -442,7 +442,6 @@ def ask_animal():
     if not print_reaction(animals, key):
         default_response("animal")
     print()
-
 
 
 # ------------------------------
