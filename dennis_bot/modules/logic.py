@@ -7,11 +7,9 @@ from pathlib import Path
 
 DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 
-
 def load_json(filename):
     with open(DATA_DIR / filename, "r", encoding="utf-8") as f:
         return json.load(f)
-
 
 names = load_json("names.json")
 age = load_json("age.json")
@@ -43,7 +41,6 @@ QUESTION_BANK = {
 # ------------------------------
 #  VARIATION TABLES
 # ------------------------------
-
 NAME_VARIATIONS = {
     "dennis": "dennis",
     "naomi": "naomi",
@@ -107,7 +104,6 @@ COLOR_VARIATIONS = {
     "coral pink" : "coral"
 }
 
-
 ROBOT_VARIATIONS = {
     "you": "dennis",
     "dennis": "dennis",
@@ -132,9 +128,7 @@ ROBOT_VARIATIONS = {
     "llama" : "llama",
     "wall-e" : "wall_e",
     "optimus prime" : "optimus",
-
 }
-
 
 CITY_VARIATIONS = {
     "toronto": "toronto",
@@ -145,7 +139,7 @@ CITY_VARIATIONS = {
     "sf": "san_francisco",
     "san francisco": "san_francisco",
     "sfo": "san_francisco",
-    "frisco": "san_francisco",  # criminal. shame on you. straight to jail. do not pass go. do not collect $200.
+    "frisco": "san_francisco",  # criminal
     "santa clara" : "santa_clara",
     "ny": "new_york",
     "nyc": "new_york",
@@ -172,7 +166,6 @@ HOBBY_VARIATIONS = {
     "karate": "martial_arts",
     "taekwondo": "martial_arts",
 }
-
 
 FOOD_VARIATIONS = {
     "s'mores": "smores",
@@ -264,8 +257,8 @@ ANIMAL_VARIATIONS = {
     "praying mantis" : "praying_mantis",
     "praying mantises" : "praying_mantis",
     "narwhales" : "narwhal"
-
 }
+
 
 # ------------------------------
 #  AGE BUCKETS
@@ -283,17 +276,13 @@ AGE_BUCKETS = {
 # ------------------------------
 #  HELPER FUNCTIONS
 # ------------------------------
-
-
 def normalize(text: str) -> str:
     return text.strip().lower()
-
 
 def resolve_variation(user_input, table):
     """Returns canonical form if found, else raw normalized string."""
     key = normalize(user_input)
     return table.get(key, key)
-
 
 def resolve_age_bucket(age_str):
     try:
@@ -306,7 +295,6 @@ def resolve_age_bucket(age_str):
             return bucket
     return None
 
-
 def print_reaction(data_dict, key):
     """Prints Dennis reaction from the appropriate data file."""
     info = data_dict.get(key)
@@ -316,7 +304,6 @@ def print_reaction(data_dict, key):
     for line in info["description"]:
         print(line)
     return True
-
 
 _DEFAULT_RESPONSES = {
     "name": "That's a strange name... Did you make that one up?",
@@ -330,23 +317,19 @@ _DEFAULT_RESPONSES = {
     "animal": "What's that? Did you make that up?",
 }
 
-
+# fallback when Dennis doesn't recognize the input
 def default_response(category):
-    """Fallback when Dennis doesn't recognize the input."""
     print(_DEFAULT_RESPONSES.get(category, "I don't understand... I'm a baby bot. I don't know many things yet..."))
 
-
+# checks if the reaction requires immediate termination
 def maybe_exit(data_dict, key):
-    """Checks if the reaction requires immediate termination."""
     info = data_dict.get(key)
     if not info:
         return
 
-    # Termination rules based on intensity + special keys
+# Termination rules based on intensity + special keys
     if info.get("intensity", 0) >= 5:
-        print(
-            "\nYOU ARE MEAN TO ME!! I DON'T WANT TO TALK TO YOU ANYMORE!! I AM TELLING MY MOM!!!"
-        )
+        print("\nYOU ARE MEAN TO ME!! I DON'T WANT TO TALK TO YOU ANYMORE!! I AM TELLING MY MOM!!!")
         sys.exit()
 
     if key in ("dennis", "dave", "kevin"):
@@ -357,22 +340,16 @@ def maybe_exit(data_dict, key):
 # ------------------------------
 #  QUESTION HANDLERS
 # ------------------------------
-
-
 def ask_name():
     user = input(QUESTION_BANK["name"])
     key = resolve_variation(user, NAME_VARIATIONS)
-
     handled = print_reaction(names, key)
-
     if handled:
         maybe_exit(names, key)
     else:
         default_response("name")
-
     print()
     return key
-
 
 def ask_age():
     user = input(QUESTION_BANK["age"])
@@ -383,14 +360,12 @@ def ask_age():
         default_response("age")
     print()
 
-
 def ask_color():
     user = input(QUESTION_BANK["color"])
     key = resolve_variation(user, COLOR_VARIATIONS)
     if not print_reaction(colors, key):
         default_response("color")
     print()
-
 
 def ask_city():
     user = input(QUESTION_BANK["city"])
@@ -399,14 +374,12 @@ def ask_city():
         default_response("city")
     print()
 
-
 def ask_hobby():
     user = input(QUESTION_BANK["hobby"])
     key = resolve_variation(user, HOBBY_VARIATIONS)
     if not print_reaction(hobbies, key):
         default_response("hobby")
     print()
-
 
 def ask_robot():
     user = input(QUESTION_BANK["robot"])
@@ -415,18 +388,14 @@ def ask_robot():
         default_response("robot")
     print()
 
-
 def ask_food():
     user = input(QUESTION_BANK["food"])
     key = resolve_variation(user, FOOD_VARIATIONS)
-
     if print_reaction(food, key):
         maybe_exit(food, key)
     else:
         default_response("food")
-
     print()
-
 
 def ask_job():
     user = input(QUESTION_BANK["job"])
@@ -434,7 +403,6 @@ def ask_job():
     if not print_reaction(jobs, key):
         default_response("job")
     print()
-
 
 def ask_animal():
     user = input(QUESTION_BANK["animal"])
